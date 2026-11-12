@@ -1,0 +1,1 @@
+# Kontribusi tiap orang
