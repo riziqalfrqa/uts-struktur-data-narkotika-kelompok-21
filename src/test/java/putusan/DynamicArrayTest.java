@@ -1,6 +1,6 @@
-package id.umm.putusan;
+package putusan;
 
-import id.umm.putusan.datastructure.DynamicArray;
+import putusan.datastructure.DynamicArray;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
