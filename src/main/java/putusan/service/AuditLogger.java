@@ -1,6 +1,6 @@
-package id.umm.putusan.service;
+package putusan.service;
 
-import id.umm.putusan.datastructure.CustomStack;
+import putusan.datastructure.CustomStack;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
