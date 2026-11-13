@@ -1,8 +1,8 @@
-package id.umm.putusan.app;
+package putusan.app;
 
-import id.umm.putusan.datastructure.DynamicArray;
-import id.umm.putusan.model.Putusan;
-import id.umm.putusan.service.*;
+import putusan.datastructure.DynamicArray;
+import putusan.model.Putusan;
+import putusan.service.*;
 
 import java.nio.file.Path;
 import java.util.Scanner;
