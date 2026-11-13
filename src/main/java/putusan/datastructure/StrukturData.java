@@ -1,4 +1,4 @@
-package id.umm.putusan.datastructure;
+package putusan.datastructure;
 
 public interface StrukturData<T> {
     void add(T data);

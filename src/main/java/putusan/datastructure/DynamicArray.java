@@ -1,9 +1,5 @@
-package id.umm.putusan.datastructure;
+package putusan.datastructure;
 
-/**
- * Dynamic Array generik buatan sendiri.
- * Tidak menggunakan java.util collection.
- */
 public class DynamicArray<T> implements StrukturData<T> {
     private Object[] data;
     private int size;
