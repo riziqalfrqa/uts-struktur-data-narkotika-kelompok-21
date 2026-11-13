@@ -1,0 +1,351 @@
+case_id,field_name,value,source_file,source_page,extractor,reviewer,status
+PTN-001,nomor_perkara,21/Pid.Sus/2026/PN Tgl,putusan_21_pid.sus_2026_pn_tgl_20261106224437.pdf,hal. 1,surya,alfa,verified
+PTN-001,pengadilan,Pengadilan Negeri Tegal,putusan_21_pid.sus_2026_pn_tgl_20261106224437.pdf,hal. 1,surya,alfa,verified
+PTN-001,tanggal_putusan,2026-04-28,putusan_21_pid.sus_2026_pn_tgl_20261106224437.pdf,hal. 20,surya,alfa,verified
+PTN-001,terdakwa_kode,TD-001,putusan_21_pid.sus_2026_pn_tgl_20261106224437.pdf,hal. 1,surya,alfa,verified
+PTN-001,jenis_narkotika,Metamfetamina / Sabu,putusan_21_pid.sus_2026_pn_tgl_20261106224437.pdf,hal. 4; hal. 5; hal. 9; hal. 12; hal. 16,surya,alfa,verified
+PTN-001,berat_barang_bukti_gram,0.62387,putusan_21_pid.sus_2026_pn_tgl_20261106224437.pdf,hal. 2; hal. 4; hal. 5; hal. 11; hal. 12; hal. 16; hal. 18,surya,alfa,verified
+PTN-001,pasal_dakwaan,Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika; Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 tentang KUHP,putusan_21_pid.sus_2026_pn_tgl_20261106224437.pdf,hal. 4; hal. 5,surya,alfa,verified
+PTN-001,pasal_terbukti,Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 tentang KUHP,putusan_21_pid.sus_2026_pn_tgl_20261106224437.pdf,hal. 12; hal. 19,surya,alfa,verified
+PTN-001,tuntutan_bulan,60,putusan_21_pid.sus_2026_pn_tgl_20261106224437.pdf,hal. 2,surya,alfa,verified
+PTN-001,vonis_bulan,42,putusan_21_pid.sus_2026_pn_tgl_20261106224437.pdf,hal. 19,surya,alfa,verified
+PTN-001,denda_rupiah,0,putusan_21_pid.sus_2026_pn_tgl_20261106224437.pdf,hal. 19; hal. 20,surya,alfa,verified
+PTN-001,barang_bukti,"1 paket sabu dalam plastik klip putih bening berlapis kapas putih dan bekas bungkus permen Yupi hijau (netto 0.62387 g); 1 unit HP Oppo A12 warna biru (IMEI 1: 861693050869551, IMEI 2: 861693050869544, No. Simcard: +62895381030627)",putusan_21_pid.sus_2026_pn_tgl_20261106224437.pdf,hal. 2; hal. 11; hal. 18; hal. 19; hal. 20,surya,alfa,verified
+PTN-001,keadaan_memberatkan,Perbuatan Terdakwa tidak mendukung dan bertentangan dengan program Pemerintah untuk memberantas penggunaan narkotika; Perbuatan Terdakwa meresahkan masyarakat,putusan_21_pid.sus_2026_pn_tgl_20261106224437.pdf,hal. 19,surya,alfa,verified
+PTN-001,keadaan_meringankan,Terdakwa mengakui perbuatannya dan menyesali perbuatannya serta berjanji tidak akan mengulangi perbuatannya lagi; Terdakwa belum pernah dihukum,putusan_21_pid.sus_2026_pn_tgl_20261106224437.pdf,hal. 19,surya,alfa,verified
+PTN-002,nomor_perkara,33/Pid.Sus/2026/PN Tgl,putusan_33_pid.sus_2026_pn_tgl_20261106224339.pdf,hal. 1,surya,alfa,verified
+PTN-002,pengadilan,Pengadilan Negeri Tegal,putusan_33_pid.sus_2026_pn_tgl_20261106224339.pdf,hal. 1,surya,alfa,verified
+PTN-002,tanggal_putusan,2026-05-25,putusan_33_pid.sus_2026_pn_tgl_20261106224339.pdf,hal. 58,surya,alfa,verified
+PTN-002,terdakwa_kode,"TD-002-A; TD-002-B",putusan_33_pid.sus_2026_pn_tgl_20261106224339.pdf,hal. 1,surya,alfa,verified
+PTN-002,jenis_narkotika,Metamfetamina / Sabu,putusan_33_pid.sus_2026_pn_tgl_20261106224339.pdf,hal. 3; hal. 7; hal. 9; hal. 40; hal. 43; hal. 48,surya,alfa,verified
+PTN-002,berat_barang_bukti_gram,0.43,putusan_33_pid.sus_2026_pn_tgl_20261106224339.pdf,hal. 3; hal. 6; hal. 7; hal. 8; hal. 9; hal. 23; hal. 56; hal. 58,surya,alfa,verified
+PTN-002,pasal_dakwaan,"Pasal 114 ayat (1) jo Pasal 20 huruf c UU No. 1 Tahun 2023; Pasal 609 ayat (1) huruf a jo Pasal VII angka 50 jo Pasal 20 huruf c UU No. 1 Tahun 2023 jo UU No. 1 Tahun 2026",putusan_33_pid.sus_2026_pn_tgl_20261106224339.pdf,hal. 8; hal. 30; hal. 41,surya,alfa,verified
+PTN-002,pasal_terbukti,"Pasal 609 ayat (1) huruf a jo Pasal VII angka 50 UU No. 1 Tahun 2026 jo Pasal 20 huruf c UU No. 1 Tahun 2023 jo UU No. 1 Tahun 2023 tentang KUHP",putusan_33_pid.sus_2026_pn_tgl_20261106224339.pdf,hal. 42; hal. 52; hal. 57,surya,alfa,verified
+PTN-002,tuntutan_bulan,"48; 60",putusan_33_pid.sus_2026_pn_tgl_20261106224339.pdf,hal. 3; hal. 54,surya,alfa,verified
+PTN-002,vonis_bulan,"36; 48",putusan_33_pid.sus_2026_pn_tgl_20261106224339.pdf,hal. 57; hal. 58,surya,alfa,verified
+PTN-002,denda_rupiah,"1000000000; 1000000000",putusan_33_pid.sus_2026_pn_tgl_20261106224339.pdf,hal. 58,surya,alfa,verified
+PTN-002,barang_bukti,"1 plastik klip berisi serbuk kristal sabu (netto 0.43 g) terbungkus tissue putih berlapis isolasi merah bertuliskan FRAGILE dalam bungkus permen Dairy Milk ungu; 1 bungkus permen Dairy Milk ungu; 1 HP Oppo A5i warna nebula red (IMEI 1: 865065072264374, IMEI 2: 865065072264366) berikut SIM card; 1 HP Xiaomi Redmi Note 11 warna abu-abu (IMEI 1: 863656066899167, IMEI 2: 863656066899175) berikut SIM card; 1 unit sepeda motor Honda Beat hitam No. Pol: G-3631-VQ berikut kunci",putusan_33_pid.sus_2026_pn_tgl_20261106224339.pdf,hal. 3; hal. 23; hal. 56; hal. 58,surya,alfa,verified
+PTN-002,keadaan_memberatkan,Perbuatan para Terdakwa tidak mendukung program pemerintah dalam memberantas tindak pidana narkotika dan precursor narkotika; Perbuatan Terdakwa meresahkan masyarakat,putusan_33_pid.sus_2026_pn_tgl_20261106224339.pdf,hal. 57,surya,alfa,verified
+PTN-002,keadaan_meringankan,Para Terdakwa berlaku sopan di persidangan; Para Terdakwa mengakui perbuatannya dan menyesali perbuatannya; Para Terdakwa merasa bersalah dan berjanji tidak mengulangi lagi; Para Terdakwa tidak memberikan keterangan berbelit-belit; Para Terdakwa merupakan tulang punggung bagi keluarganya,putusan_33_pid.sus_2026_pn_tgl_20261106224339.pdf,hal. 57,surya,alfa,verified
+PTN-003,nomor_perkara,35/Pid.Sus/2026/PN Tgl,putusan_35_pid.sus_2026_pn_tgl_20261106224203.pdf,hal. 1,surya,alfa,verified
+PTN-003,pengadilan,Pengadilan Negeri Tegal,putusan_35_pid.sus_2026_pn_tgl_20261106224203.pdf,hal. 1,surya,alfa,verified
+PTN-003,tanggal_putusan,2026-06-17,putusan_35_pid.sus_2026_pn_tgl_20261106224203.pdf,hal. 27,surya,alfa,verified
+PTN-003,terdakwa_kode,TD-003,putusan_35_pid.sus_2026_pn_tgl_20261106224203.pdf,hal. 1,surya,alfa,verified
+PTN-003,jenis_narkotika,Metamfetamina / Sabu,putusan_35_pid.sus_2026_pn_tgl_20261106224203.pdf,hal. 2; hal. 5; hal. 7; hal. 9; hal. 15; hal. 19; hal. 24; hal. 26,surya,alfa,verified
+PTN-003,berat_barang_bukti_gram,0.27555,putusan_35_pid.sus_2026_pn_tgl_20261106224203.pdf,hal. 2; hal. 5; hal. 7; hal. 8; hal. 9; hal. 15; hal. 17; hal. 19; hal. 23; hal. 25; hal. 27,surya,alfa,verified
+PTN-003,pasal_dakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 jo Lampiran II UU No. 1 Tahun 2026; Pasal 610 ayat (1) huruf a UU No. 1 Tahun 2023 jo UU No. 1 Tahun 2026; Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 jo UU No. 1 Tahun 2026",putusan_35_pid.sus_2026_pn_tgl_20261106224203.pdf,hal. 5; hal. 7; hal. 9,surya,alfa,verified
+PTN-003,pasal_terbukti,"Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 tentang KUHP",putusan_35_pid.sus_2026_pn_tgl_20261106224203.pdf,hal. 19; hal. 26,surya,alfa,verified
+PTN-003,tuntutan_bulan,42,putusan_35_pid.sus_2026_pn_tgl_20261106224203.pdf,hal. 2,surya,alfa,verified
+PTN-003,vonis_bulan,36,putusan_35_pid.sus_2026_pn_tgl_20261106224203.pdf,hal. 26,surya,alfa,verified
+PTN-003,denda_rupiah,0,putusan_35_pid.sus_2026_pn_tgl_20261106224203.pdf,hal. 26; hal. 27,surya,alfa,verified
+PTN-003,barang_bukti,"6 paket sabu masing-masing dibungkus plastik klip putih bening dilapisi kapas putih dan isolatif cokelat (berat bersih 0.27555 g); 1 HP Redmi Note 14 hitam (IMEI 1: 862592077576661, IMEI 2: 862592077575579, SIM +6281953206202); 1 celana panjang hitam; 1 unit sepeda motor Honda Vario biru tua No. Pol G 6801 ACG Tahun 2017 (dikembalikan kepada Saksi Suwatno)",putusan_35_pid.sus_2026_pn_tgl_20261106224203.pdf,hal. 2; hal. 17; hal. 25; hal. 26; hal. 27,surya,alfa,verified
+PTN-003,keadaan_memberatkan,Perbuatan Terdakwa tidak mendukung dan bertentangan dengan program Pemerintah untuk memberantas penggunaan narkotika; Perbuatan Terdakwa meresahkan masyarakat,putusan_35_pid.sus_2026_pn_tgl_20261106224203.pdf,hal. 26,surya,alfa,verified
+PTN-003,keadaan_meringankan,Terdakwa mengakui perbuatannya dan menyesali perbuatannya serta berjanji tidak akan mengulangi perbuatannya lagi; Terdakwa belum pernah dihukum,putusan_35_pid.sus_2026_pn_tgl_20261106224203.pdf,hal. 26,surya,alfa,verified
+PTN-004,nomor_perkara,39/Pid.Sus/2026/PN Tgl,putusan_39_pid.sus_2026_pn_tgl_20261106224031.pdf,hal. 1,surya,alfa,verified
+PTN-004,pengadilan,Pengadilan Negeri Tegal,putusan_39_pid.sus_2026_pn_tgl_20261106224031.pdf,hal. 1,surya,alfa,verified
+PTN-004,tanggal_putusan,2026-06-24,putusan_39_pid.sus_2026_pn_tgl_20261106224031.pdf,hal. 31,surya,alfa,verified
+PTN-004,terdakwa_kode,TD-004,putusan_39_pid.sus_2026_pn_tgl_20261106224031.pdf,hal. 1,surya,alfa,verified
+PTN-004,jenis_narkotika,Alprazolam (Psikotropika Golongan IV); Tramadol (Obat Keras / Daftar G),putusan_39_pid.sus_2026_pn_tgl_20261106224031.pdf,hal. 2; hal. 4; hal. 7; hal. 9; hal. 15; hal. 17; hal. 30,surya,alfa,verified
+PTN-004,berat_barang_bukti_gram,0.00,putusan_39_pid.sus_2026_pn_tgl_20261106224031.pdf,hal. 2; hal. 4; hal. 7; hal. 15; hal. 30,surya,alfa,verified
+PTN-004,pasal_dakwaan,"Pasal 62 UU No. 5 Tahun 1997 tentang Psikotropika; Pasal 435 UU No. 17 Tahun 2023 tentang Kesehatan jo Pasal 17 UU No. 1 Tahun 2023 tentang KUHP; Pasal 436 ayat (2) UU No. 17 Tahun 2023 tentang Kesehatan jo Pasal 17 UU No. 1 Tahun 2023 tentang KUHP",putusan_39_pid.sus_2026_pn_tgl_20261106224031.pdf,hal. 5; hal. 7; hal. 9,surya,alfa,verified
+PTN-004,pasal_terbukti,"Pasal 62 UU No. 5 Tahun 1997 tentang Psikotropika; Pasal 436 ayat (2) UU No. 17 Tahun 2023 tentang Kesehatan jo Pasal 17 UU No. 1 Tahun 2023 tentang KUHP",putusan_39_pid.sus_2026_pn_tgl_20261106224031.pdf,hal. 21; hal. 28; hal. 30,surya,alfa,verified
+PTN-004,tuntutan_bulan,48,putusan_39_pid.sus_2026_pn_tgl_20261106224031.pdf,hal. 2,surya,alfa,verified
+PTN-004,vonis_bulan,36,putusan_39_pid.sus_2026_pn_tgl_20261106224031.pdf,hal. 30,surya,alfa,verified
+PTN-004,denda_rupiah,0,putusan_39_pid.sus_2026_pn_tgl_20261106224031.pdf,hal. 30; hal. 31,surya,alfa,verified
+PTN-004,barang_bukti,"10 butir obat kemasan biru bertuliskan CALMLET ALPRAZOLAM Tablet 1 mg (sisa uji lab 8 butir); 5 lempeng / 50 butir obat kemasan silver hijau mengandung Tramadol (sisa uji lab 48 butir); 1 potongan dus coklat berlapis plastik dan bubble wrap hitam tertempel resi TIKI Express; 1 plastik pembungkus bening bertuliskan TIKI Express; 1 unit HP Samsung Galaxy A07 grey (IMEI 1: 353481520326849, IMEI 2: 354178600326843) berikut SIM card",putusan_39_pid.sus_2026_pn_tgl_20261106224031.pdf,hal. 2; hal. 4; hal. 7; hal. 15; hal. 29; hal. 30; hal. 31,surya,alfa,verified
+PTN-004,keadaan_memberatkan,Perbuatan Terdakwa menghambat upaya pemerintah dalam memberantas peredaran gelap Psikotropika dan Obat Keras,putusan_39_pid.sus_2026_pn_tgl_20261106224031.pdf,hal. 30,surya,alfa,verified
+PTN-004,keadaan_meringankan,Terdakwa mengaku bersalah; Terdakwa menyesali perbuatannya,putusan_39_pid.sus_2026_pn_tgl_20261106224031.pdf,hal. 30,surya,alfa,verified
+PTN-005,nomor_perkara,41/Pid.Sus/2026/PN Tgl,putusan_41_pid.sus_2026_pn_tgl_20261106223933.pdf,hal. 1,surya,alfa,verified
+PTN-005,pengadilan,Pengadilan Negeri Tegal,putusan_41_pid.sus_2026_pn_tgl_20261106223933.pdf,hal. 1,surya,alfa,verified
+PTN-005,tanggal_putusan,2026-07-01,putusan_41_pid.sus_2026_pn_tgl_20261106223933.pdf,hal. 35,surya,alfa,verified
+PTN-005,terdakwa_kode,TD-005,putusan_41_pid.sus_2026_pn_tgl_20261106223933.pdf,hal. 1,surya,alfa,verified
+PTN-005,jenis_narkotika,Metamfetamina / Sabu,putusan_41_pid.sus_2026_pn_tgl_20261106223933.pdf,hal. 3; hal. 5; hal. 6; hal. 7; hal. 8; hal. 16; hal. 19; hal. 22; hal. 27; hal. 35,surya,alfa,verified
+PTN-005,berat_barang_bukti_gram,0.07453,putusan_41_pid.sus_2026_pn_tgl_20261106223933.pdf,hal. 3; hal. 5; hal. 6; hal. 7; hal. 16; hal. 17; hal. 19; hal. 22; hal. 23; hal. 27; hal. 33; hal. 35,surya,alfa,verified
+PTN-005,pasal_dakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 jo UU No. 1 Tahun 2023 jo UU No. 1 Tahun 2026; Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 jo UU No. 1 Tahun 2026",putusan_41_pid.sus_2026_pn_tgl_20261106223933.pdf,hal. 6; hal. 8; hal. 20,surya,alfa,verified
+PTN-005,pasal_terbukti,"Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 tentang KUHP jo UU No. 1 Tahun 2026",putusan_41_pid.sus_2026_pn_tgl_20261106223933.pdf,hal. 29; hal. 35,surya,alfa,verified
+PTN-005,tuntutan_bulan,48,putusan_41_pid.sus_2026_pn_tgl_20261106223933.pdf,hal. 2; hal. 30,surya,alfa,verified
+PTN-005,vonis_bulan,36,putusan_41_pid.sus_2026_pn_tgl_20261106223933.pdf,hal. 35,surya,alfa,verified
+PTN-005,denda_rupiah,0,putusan_41_pid.sus_2026_pn_tgl_20261106223933.pdf,hal. 33; hal. 35,surya,alfa,verified
+PTN-005,barang_bukti,"1 paket sabu dibungkus plastik klip putih bening (berat kotor 0.18 g, berat bersih 0.07453 g); 1 unit HP Redmi 9A warna Biru (IMEI 1: 864931050536201, IMEI 2: 864931050536219, SIM +6283870075173); Dokumen elektronik foto struk pengisian saldo dompet digital DANA sebesar Rp500.000 dengan nomor akun 083111436239 atas nama VINX",putusan_41_pid.sus_2026_pn_tgl_20261106223933.pdf,hal. 3; hal. 5; hal. 16; hal. 17; hal. 33; hal. 34; hal. 35,surya,alfa,verified
+PTN-005,keadaan_memberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam memberantas tindak pidana narkotika; Perbuatan Terdakwa meresahkan masyarakat; Perbuatan Terdakwa berpotensi merusak generasi muda bangsa,putusan_41_pid.sus_2026_pn_tgl_20261106223933.pdf,hal. 34,surya,alfa,verified
+PTN-005,keadaan_meringankan,Terdakwa berlaku sopan di persidangan; Terdakwa mengakui perbuatannya; Terdakwa menyesali perbuatannya; Terdakwa merasa bersalah; Terdakwa berjanji tidak mengulangi lagi; Terdakwa tidak memberikan keterangan berbelit belit,putusan_41_pid.sus_2026_pn_tgl_20261106223933.pdf,hal. 34,surya,alfa,verified
+PTN-006,nomor_perkara,45/Pid.Sus/2026/PN Tgl,putusan_45_pid.sus_2026_pn_tgl_20261106223814.pdf,hal. 1,surya,alfa,verified
+PTN-006,pengadilan,Pengadilan Negeri Tegal,putusan_45_pid.sus_2026_pn_tgl_20261106223814.pdf,hal. 1,surya,alfa,verified
+PTN-006,tanggal_putusan,2026-07-15,putusan_45_pid.sus_2026_pn_tgl_20261106223814.pdf,hal. 27,surya,alfa,verified
+PTN-006,terdakwa_kode,TD-006,putusan_45_pid.sus_2026_pn_tgl_20261106223814.pdf,hal. 1,surya,alfa,verified
+PTN-006,jenis_narkotika,Metamfetamina / Sabu,putusan_45_pid.sus_2026_pn_tgl_20261106223814.pdf,hal. 2; hal. 5; hal. 6; hal. 7; hal. 14; hal. 15; hal. 17; hal. 18; hal. 24; hal. 26,surya,alfa,verified
+PTN-006,berat_barang_bukti_gram,4.71,putusan_45_pid.sus_2026_pn_tgl_20261106223814.pdf,hal. 2; hal. 5; hal. 6; hal. 7; hal. 8; hal. 10; hal. 13; hal. 14; hal. 15; hal. 17; hal. 21; hal. 23; hal. 25; hal. 26,surya,alfa,verified
+PTN-006,pasal_dakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika; Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 tentang KUHP sebagaimana diubah dengan Pasal VII angka 50 UU No. 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_45_pid.sus_2026_pn_tgl_20261106223814.pdf,hal. 5; hal. 7; hal. 18,surya,alfa,verified
+PTN-006,pasal_terbukti,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika",putusan_45_pid.sus_2026_pn_tgl_20261106223814.pdf,hal. 24; hal. 26,surya,alfa,verified
+PTN-006,tuntutan_bulan,96,putusan_45_pid.sus_2026_pn_tgl_20261106223814.pdf,hal. 2,surya,alfa,verified
+PTN-006,vonis_bulan,78,putusan_45_pid.sus_2026_pn_tgl_20261106223814.pdf,hal. 26,surya,alfa,verified
+PTN-006,denda_rupiah,0,putusan_45_pid.sus_2026_pn_tgl_20261106223814.pdf,hal. 26; hal. 27,surya,alfa,verified
+PTN-006,barang_bukti,"1 plastik klip berisi serbuk kristal sabu (berat bersih 4.71 g, berat uji lab 4.62319 g, sisa 4.61543 g) di dalam bungkus plastik TANGO WAFFLE warna biru; 1 potongan asbes; 1 cup plastik ukuran besar warna bening berisi semen putih; 1 scrap kape gagang kayu; 1 unit HP SAMSUNG Galaxy A10 warna hitam (IMEI 1: 359313101164667/01, IMEI 2: 359314101164665/01) berikut SIM card; 1 unit sepeda motor HONDA Vario warna hitam silver No. Pol G-2222-KZ (dirampas untuk negara)",putusan_45_pid.sus_2026_pn_tgl_20261106223814.pdf,hal. 2; hal. 5; hal. 9; hal. 14; hal. 15; hal. 25; hal. 26; hal. 27,surya,alfa,verified
+PTN-006,keadaan_memberatkan,Perbuatan Terdakwa menghambat upaya pemerintah dalam memberantas peredaran gelap Narkotika,putusan_45_pid.sus_2026_pn_tgl_20261106223814.pdf,hal. 26,surya,alfa,verified
+PTN-006,keadaan_meringankan,Terdakwa menyesali perbuatannya; Terdakwa belum pernah dihukum,putusan_45_pid.sus_2026_pn_tgl_20261106223814.pdf,hal. 26,surya,alfa,verified
+PTN-007,nomor_perkara,46/Pid.Sus/2026/PN Tgl,putusan_46_pid.sus_2026_pn_tgl_20261106223858.pdf,hal. 1,surya,alfa,verified
+PTN-007,pengadilan,Pengadilan Negeri Tegal,putusan_46_pid.sus_2026_pn_tgl_20261106223858.pdf,hal. 1,surya,alfa,verified
+PTN-007,tanggal_putusan,2026-07-14,putusan_46_pid.sus_2026_pn_tgl_20261106223858.pdf,hal. 57,surya,alfa,verified
+PTN-007,terdakwa_kode,TD-007,putusan_46_pid.sus_2026_pn_tgl_20261106223858.pdf,hal. 1,surya,alfa,verified
+PTN-007,jenis_narkotika,Metamfetamina / Sabu,putusan_46_pid.sus_2026_pn_tgl_20261106223858.pdf,hal. 3; hal. 6; hal. 7; hal. 10; hal. 11; hal. 32; hal. 46; hal. 47; hal. 55,surya,alfa,verified
+PTN-007,berat_barang_bukti_gram,41.61,putusan_46_pid.sus_2026_pn_tgl_20261106223858.pdf,hal. 3; hal. 6; hal. 7; hal. 9; hal. 10; hal. 11; hal. 12; hal. 19; hal. 20; hal. 32; hal. 39; hal. 46; hal. 47; hal. 53; hal. 56,surya,alfa,verified
+PTN-007,pasal_dakwaan,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 tentang Narkotika jo Pasal 20 huruf c UU No. 1 Tahun 2023 tentang KUHP; Pasal 609 ayat (2) huruf a UU No. 1 Tahun 2023 tentang KUHP sebagaimana telah diubah dengan Pasal VII angka 50 UU No. 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_46_pid.sus_2026_pn_tgl_20261106223858.pdf,hal. 8; hal. 11; hal. 43; hal. 44,surya,alfa,verified
+PTN-007,pasal_terbukti,"Pasal 609 ayat (2) huruf a UU No. 1 Tahun 2023 tentang KUHP jo Pasal VII angka 50 UU No. 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_46_pid.sus_2026_pn_tgl_20261106223858.pdf,hal. 49; hal. 55,surya,alfa,verified
+PTN-007,tuntutan_bulan,84,putusan_46_pid.sus_2026_pn_tgl_20261106223858.pdf,hal. 2; hal. 51,surya,alfa,verified
+PTN-007,vonis_bulan,78,putusan_46_pid.sus_2026_pn_tgl_20261106223858.pdf,hal. 55,surya,alfa,verified
+PTN-007,denda_rupiah,0,putusan_46_pid.sus_2026_pn_tgl_20261106223858.pdf,hal. 53; hal. 55,surya,alfa,verified
+PTN-007,barang_bukti,"78 plastik klip berisi sabu total berat bersih 41.61 g (terdiri dari 8 klip 6.68 g, 17 klip 7.81 g, 49 klip 12.52 g, 3 klip 14.47 g, dan 1 klip 0.13 g); 1 dompet kain hijau loreng; 1 tas selempang JORDAN; 1 plastik pouch hitam; 5 pak plastik klip; 1 sendok plastik; 1 tempat liontin; 1 timbangan digital silver merk ACIS; potongan dan pak sedotan hijau dan merah; isolasi coklat, bening, merah FRAGILE, dan double tape; 1 gunting; 1 alat hisap (bong) kaca; 1 korek gas biru; 1 pipet kaca; 1 toples kecil ungu COLLINS; 1 unit HP SAMSUNG Galaxy A07 hitam (IMEI 1: 350576851730536, IMEI 2: 350580191730537); 1 unit HP INFINIX Hot 60i silver (IMEI 1: 350835904044323, IMEI 2: 350835905128273); 1 unit sepeda motor YAMAHA GEAR putih No. Pol G-5126-BN (dirampas untuk negara)",putusan_46_pid.sus_2026_pn_tgl_20261106223858.pdf,hal. 3; hal. 4; hal. 53; hal. 54; hal. 56; hal. 57,surya,alfa,verified
+PTN-007,keadaan_memberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam memberantas tindak pidana narkotika; Perbuatan Terdakwa meresahkan masyarakat; Perbuatan Terdakwa berpotensi merusak generasi muda bangsa; Terdakwa pernah dihukum dalam tindak pidana narkotika di Slawi,putusan_46_pid.sus_2026_pn_tgl_20261106223858.pdf,hal. 55,surya,alfa,verified
+PTN-007,keadaan_meringankan,Terdakwa berlaku sopan di persidangan; Terdakwa mengakui dan menyesali perbuatannya; Terdakwa merasa bersalah; Terdakwa berjanji tidak mengulangi lagi; Terdakwa tidak memberikan keterangan berbelit-belit; Terdakwa tulang punggung bagi keluarganya,putusan_46_pid.sus_2026_pn_tgl_20261106223858.pdf,hal. 55,surya,alfa,verified
+PTN-008,nomor_perkara,47/Pid.Sus/2026/PN Tgl,putusan_47_pid.sus_2026_pn_tgl_20261106223921.pdf,hal. 1,surya,alfa,verified
+PTN-008,pengadilan,Pengadilan Negeri Tegal,putusan_47_pid.sus_2026_pn_tgl_20261106223921.pdf,hal. 1,surya,alfa,verified
+PTN-008,tanggal_putusan,2026-07-14,putusan_47_pid.sus_2026_pn_tgl_20261106223921.pdf,hal. 56,surya,alfa,verified
+PTN-008,terdakwa_kode,TD-008,putusan_47_pid.sus_2026_pn_tgl_20261106223921.pdf,hal. 1,surya,alfa,verified
+PTN-008,jenis_narkotika,Metamfetamina / Sabu,putusan_47_pid.sus_2026_pn_tgl_20261106223921.pdf,hal. 3; hal. 6; hal. 7; hal. 8; hal. 9; hal. 29; hal. 30; hal. 45; hal. 46; hal. 55,surya,alfa,verified
+PTN-008,berat_barang_bukti_gram,3.9,putusan_47_pid.sus_2026_pn_tgl_20261106223921.pdf,hal. 3; hal. 5; hal. 6; hal. 8; hal. 9; hal. 29; hal. 30; hal. 31; hal. 36; hal. 37; hal. 44; hal. 45; hal. 46; hal. 47; hal. 55,surya,alfa,verified
+PTN-008,pasal_dakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika jo Pasal 20 huruf c UU No. 1 Tahun 2023 tentang KUHP; Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 tentang KUHP sebagaimana telah diubah dengan Pasal VII angka 50 UU No. 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_47_pid.sus_2026_pn_tgl_20261106223921.pdf,hal. 7; hal. 9; hal. 41,surya,alfa,verified
+PTN-008,pasal_terbukti,"Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 tentang KUHP sebagaimana telah diubah dengan Pasal VII angka 50 UU No. 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_47_pid.sus_2026_pn_tgl_20261106223921.pdf,hal. 49; hal. 54; hal. 55,surya,alfa,verified
+PTN-008,tuntutan_bulan,72,putusan_47_pid.sus_2026_pn_tgl_20261106223921.pdf,hal. 2; hal. 50,surya,alfa,verified
+PTN-008,vonis_bulan,66,putusan_47_pid.sus_2026_pn_tgl_20261106223921.pdf,hal. 55,surya,alfa,verified
+PTN-008,denda_rupiah,0,putusan_47_pid.sus_2026_pn_tgl_20261106223921.pdf,hal. 52; hal. 55,surya,alfa,verified
+PTN-008,barang_bukti,"12 plastik klip berisi sabu total berat bersih 3.9 g (terdiri dari 3 klip 1 g, 3 klip 1.39 g, dan 6 klip 1.51 g); 1 buah plastik warna putih; 1 unit HP INFINIX SMART 10 warna silver (IMEI 1: 352565681233264, IMEI 2: 352565686844610); 1 unit sepeda motor YAMAHA MIO SOUL GT warna asli merah terpasang warna hitam No. Pol G-5126-BN (dirampas untuk negara)",putusan_47_pid.sus_2026_pn_tgl_20261106223921.pdf,hal. 3; hal. 36; hal. 53; hal. 55; hal. 56,surya,alfa,verified
+PTN-008,keadaan_memberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam memberantas tindak pidana narkotika; Perbuatan Terdakwa meresahkan masyarakat; Perbuatan Terdakwa berpotensi merusak generasi muda bangsa; Terdakwa pernah dihukum dalam tindak pidana narkotika di Tegal,putusan_47_pid.sus_2026_pn_tgl_20261106223921.pdf,hal. 54,surya,alfa,verified
+PTN-008,keadaan_meringankan,Terdakwa berlaku sopan di persidangan; Terdakwa mengakui dan menyesali perbuatannya; Terdakwa merasa bersalah; Terdakwa berjanji tidak mengulangi lagi; Terdakwa tidak memberikan keterangan berbelit-belit; Terdakwa tulang punggung bagi keluarganya,putusan_47_pid.sus_2026_pn_tgl_20261106223921.pdf,hal. 54,surya,alfa,verified
+PTN-009,nomor_perkara,49/Pid.Sus/2026/PN Tgl,putusan_49_pid.sus_2026_pn_tgl.pdf,hal. 1,surya,alfa,verified
+PTN-009,pengadilan,Pengadilan Negeri Tegal,putusan_49_pid.sus_2026_pn_tgl.pdf,hal. 1,surya,alfa,verified
+PTN-009,tanggal_putusan,2026-08-04,putusan_49_pid.sus_2026_pn_tgl.pdf,hal. 24,surya,alfa,verified
+PTN-009,terdakwa_kode,TD-009,putusan_49_pid.sus_2026_pn_tgl.pdf,hal. 1,surya,alfa,verified
+PTN-009,jenis_narkotika,Metamfetamina / Sabu,putusan_49_pid.sus_2026_pn_tgl.pdf,hal. 2; hal. 5; hal. 6; hal. 23,surya,alfa,verified
+PTN-009,berat_barang_bukti_gram,0.13,putusan_49_pid.sus_2026_pn_tgl.pdf,hal. 2; hal. 5; hal. 6; hal. 23; hal. 24,surya,alfa,verified
+PTN-009,pasal_dakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009; Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 sebagaimana telah diubah dengan Pasal VII angka 50 UU No. 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_49_pid.sus_2026_pn_tgl.pdf,hal. 2; hal. 5; hal. 6,surya,alfa,verified
+PTN-009,pasal_terbukti,"Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 sebagaimana telah diubah dengan Pasal VII angka 50 UU No. 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_49_pid.sus_2026_pn_tgl.pdf,hal. 23; hal. 24,surya,alfa,verified
+PTN-009,tuntutan_bulan,72,putusan_49_pid.sus_2026_pn_tgl.pdf,hal. 2,surya,alfa,verified
+PTN-009,vonis_bulan,60,putusan_49_pid.sus_2026_pn_tgl.pdf,hal. 23; hal. 24,surya,alfa,verified
+PTN-009,denda_rupiah,0,putusan_49_pid.sus_2026_pn_tgl.pdf,hal. 23; hal. 24,surya,alfa,verified
+PTN-009,barang_bukti,"1 buah plastik klip berisi serbuk kristal sabu (berat bersih 0.13 gram) berlapis plastik putih dan isolasi bening di dalam potongan gypsum; 1 pak isi plastik klip; 1 unit HP Tecno Pova 6 Pro warna meteorite grey berikut SIM card; 1 unit sepeda motor Yamaha Vega warna merah berikut kunci kontak",putusan_49_pid.sus_2026_pn_tgl.pdf,hal. 2; hal. 23; hal. 24,surya,alfa,verified
+PTN-009,keadaan_memberatkan,Perbuatan Terdakwa menghambat upaya pemerintah dalam memberantas peredaran gelap Narkotika; Terdakwa sudah pernah dihukum,putusan_49_pid.sus_2026_pn_tgl.pdf,hal. 23,surya,alfa,verified
+PTN-009,keadaan_meringankan,Terdakwa mengaku bersalah; Terdakwa menyesali perbuatannya,putusan_49_pid.sus_2026_pn_tgl.pdf,hal. 23,surya,alfa,verified
+PTN-010,nomor_perkara,50/Pid.Sus/2026/PN Tgl,putusan_50_pid.sus_2026_pn_tgl.pdf,hal. 1,surya,alfa,verified
+PTN-010,pengadilan,Pengadilan Negeri Tegal,putusan_50_pid.sus_2026_pn_tgl.pdf,hal. 1,surya,alfa,verified
+PTN-010,tanggal_putusan,2026-07-15,putusan_50_pid.sus_2026_pn_tgl.pdf,hal. 51,surya,alfa,verified
+PTN-010,terdakwa_kode,"TD-010-A; TD-010-B",putusan_50_pid.sus_2026_pn_tgl.pdf,hal. 1,surya,alfa,verified
+PTN-010,jenis_narkotika,Metamfetamina / Sabu dan Tembakau Gorila (MDMB-4en PINACA),putusan_50_pid.sus_2026_pn_tgl.pdf,hal. 2; hal. 5; hal. 8; hal. 10; hal. 49; hal. 50,surya,alfa,verified
+PTN-010,berat_barang_bukti_gram,186.29,putusan_50_pid.sus_2026_pn_tgl.pdf,hal. 2; hal. 5; hal. 8; hal. 10; hal. 49; hal. 50,surya,alfa,verified
+PTN-010,pasal_dakwaan,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 jo. Pasal 20 huruf c UU No. 1 Tahun 2023 tentang KUHP; Pasal 609 ayat (2) huruf a UU No. 1 Tahun 2023 jo. Pasal VII angka 50 UU No. 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_50_pid.sus_2026_pn_tgl.pdf,hal. 5; hal. 8; hal. 10,surya,alfa,verified
+PTN-010,pasal_terbukti,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 jo. Pasal 20 huruf c UU No. 1 Tahun 2023 tentang KUHP",putusan_50_pid.sus_2026_pn_tgl.pdf,hal. 49; hal. 50,surya,alfa,verified
+PTN-010,tuntutan_bulan,72,putusan_50_pid.sus_2026_pn_tgl.pdf,hal. 2,surya,alfa,verified
+PTN-010,vonis_bulan,60,putusan_50_pid.sus_2026_pn_tgl.pdf,hal. 49; hal. 50,surya,alfa,verified
+PTN-010,denda_rupiah,0,putusan_50_pid.sus_2026_pn_tgl.pdf,hal. 49; hal. 50,surya,alfa,verified
+PTN-010,barang_bukti,"1 plastik klip berisi sabu (netto 0.7 gram) dalam bungkus permen Kiss di kardus coklat; 1 plastik klip tembakau gorila (netto 4.83 gram); 5 plastik klip tembakau gorila (total 10.14 gram); 1 kotak plastik putih isi tembakau gorila (netto 178.61 gram); 24 plastik klip tembakau gorila (total 96.06 gram); 23 plastik klip tembakau gorila (total 37.98 gram); 1 plastik klip tembakau gorila (netto 0.71 gram); 2 botol kaca cairan tembakau gorila cair (total 200 gram); puntung rokok tembakau gorila; 4 pak plastik klip; timbangan digital; HP Vivo Y20s & Poco M30; sepeda motor Honda PCX No. Pol: G-6437-BRF",putusan_50_pid.sus_2026_pn_tgl.pdf,hal. 2; hal. 50; hal. 51,surya,alfa,verified
+PTN-010,keadaan_memberatkan,Perbuatan para Terdakwa tidak mendukung program pemerintah dalam memberantas peredaran gelap narkotika; Perbuatan para Terdakwa meresahkan masyarakat dan merusak generasi muda,putusan_50_pid.sus_2026_pn_tgl.pdf,hal. 48; hal. 49,surya,alfa,verified
+PTN-010,keadaan_meringankan,"Para Terdakwa bersikap sopan di persidangan; Para Terdakwa mengakui terus terang perbuatannya, menyesali, dan berjanji tidak akan mengulanginya lagi; Para Terdakwa merupakan tulang punggung keluarga",putusan_50_pid.sus_2026_pn_tgl.pdf,hal. 48; hal. 49,surya,alfa,verified
+PTN-011,nomor_perkara,52/Pid.Sus/2026/PN Tgl,putusan_52_pid.sus_2026_pn_tgl_20261106223735.pdf,hal. 1,surya,alfa,verified
+PTN-011,pengadilan,Pengadilan Negeri Tegal,putusan_52_pid.sus_2026_pn_tgl_20261106223735.pdf,hal. 1,surya,alfa,verified
+PTN-011,tanggal_putusan,2026-08-13,putusan_52_pid.sus_2026_pn_tgl_20261106223735.pdf,hal. 46,surya,alfa,verified
+PTN-011,terdakwa_kode,"TD-011; TD-011-B",putusan_52_pid.sus_2026_pn_tgl_20261106223735.pdf,hal. 1; hal. 2,surya,alfa,verified
+PTN-011,jenis_narkotika,Metamfetamina / Sabu dan Tembakau Gorila (MDMB-4en PINACA),putusan_52_pid.sus_2026_pn_tgl_20261106223735.pdf,hal. 3; hal. 4; hal. 8; hal. 9; hal. 44,surya,alfa,verified
+PTN-011,berat_barang_bukti_gram,1.92,putusan_52_pid.sus_2026_pn_tgl_20261106223735.pdf,hal. 3; hal. 4; hal. 8; hal. 44; hal. 45,surya,alfa,verified
+PTN-011,pasal_dakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 jo. Pasal 20 huruf c UU No. 1 Tahun 2023 tentang KUHP; Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 sebagaimana telah diubah dengan Pasal VII angka 50 UU No. 1 Tahun 2026 tentang Penyesuaian Pidana jo. Pasal 20 huruf c UU No. 1 Tahun 2023 tentang KUHP",putusan_52_pid.sus_2026_pn_tgl_20261106223735.pdf,hal. 9; hal. 12; hal. 32,surya,alfa,verified
+PTN-011,pasal_terbukti,"Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 sebagaimana telah diubah dengan Pasal VII angka 50 UU No. 1 Tahun 2026 tentang Penyesuaian Pidana jo. Pasal 20 huruf c UU No. 1 Tahun 2023 tentang KUHP",putusan_52_pid.sus_2026_pn_tgl_20261106223735.pdf,hal. 40; hal. 44,surya,alfa,verified
+PTN-011,tuntutan_bulan,72,putusan_52_pid.sus_2026_pn_tgl_20261106223735.pdf,hal. 3,surya,alfa,verified
+PTN-011,vonis_bulan,60,putusan_52_pid.sus_2026_pn_tgl_20261106223735.pdf,hal. 44,surya,alfa,verified
+PTN-011,denda_rupiah,0,putusan_52_pid.sus_2026_pn_tgl_20261106223735.pdf,hal. 44,surya,alfa,verified
+PTN-011,barang_bukti,"1 plastik klip berisi tembakau gorila (berat 1.61 gram berikut plastik klip); 1 plastik klip berisi sabu (berat bersih 0.07 gram) terbungkus sedotan hitam; 1 linting rokok tembakau gorila (berat 0.19 gram berikut papir); 1 puntung rokok tembakau gorila (berat 0.05 gram berikut papir); 1 pak kertas papir ROYO; 1 tempat bedak MARINA; 1 tas selempang hitam; 1 tas jinjing MOSSDOOM; 1 unit HP iPhone 13; 1 unit HP Samsung Galaxy A07; 1 unit mobil Isuzu Pick Up No. Pol. H-9643-GK",putusan_52_pid.sus_2026_pn_tgl_20261106223735.pdf,hal. 3; hal. 4; hal. 44; hal. 45,surya,alfa,verified
+PTN-011,keadaan_memberatkan,Perbuatan Para Terdakwa tidak mendukung dan bertentangan dengan program Pemerintah untuk memberantas penggunaan narkotika; Perbuatan Para Terdakwa meresahkan masyarakat; Perbuatan Para Terdakwa mengkonsumsi 2 jenis narkotika; Para Terdakwa sudah pernah dihukum dalam perkara yang sama,putusan_52_pid.sus_2026_pn_tgl_20261106223735.pdf,hal. 43,surya,alfa,verified
+PTN-011,keadaan_meringankan,Para Terdakwa mengakui perbuatannya dan menyesali perbuatannya serta berjanji tidak akan mengulangi perbuatannya lagi,putusan_52_pid.sus_2026_pn_tgl_20261106223735.pdf,hal. 44,surya,alfa,verified
+PTN-012,nomor_perkara,56/Pid.Sus/2026/PN Tgl,putusan_56_pid.sus_2026_pn_tgl_20261106223620.pdf,hal. 1,surya,alfa,verified
+PTN-012,pengadilan,Pengadilan Negeri Tegal,putusan_56_pid.sus_2026_pn_tgl_20261106223620.pdf,hal. 1,surya,alfa,verified
+PTN-012,tanggal_putusan,2026-09-09,putusan_56_pid.sus_2026_pn_tgl_20261106223620.pdf,hal. 26,surya,alfa,verified
+PTN-012,terdakwa_kode,"TD-012-A; TD-012-B",putusan_56_pid.sus_2026_pn_tgl_20261106223620.pdf,hal. 1,surya,alfa,verified
+PTN-012,jenis_narkotika,Metamfetamina / Sabu,putusan_56_pid.sus_2026_pn_tgl_20261106223620.pdf,hal. 2; hal. 5; hal. 8; hal. 25,surya,alfa,verified
+PTN-012,berat_barang_bukti_gram,0.20476,putusan_56_pid.sus_2026_pn_tgl_20261106223620.pdf,hal. 3; hal. 5; hal. 8; hal. 25,surya,alfa,verified
+PTN-012,pasal_dakwaan,"Pasal 114 ayat (1) jo. Pasal 132 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika sebagaimana telah diubah dengan Lampiran II UU No. 1 Tahun 2026 tentang Penyesuaian Pidana; Pasal 609 ayat (1) huruf a jo. Pasal 20 huruf c UU No. 1 Tahun 2023 tentang KUHP jo. UU No. 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_56_pid.sus_2026_pn_tgl_20261106223620.pdf,hal. 6; hal. 8; hal. 17,surya,alfa,verified
+PTN-012,pasal_terbukti,"Pasal 609 ayat (1) huruf a jo. Pasal 20 huruf c UU No. 1 Tahun 2023 tentang KUHP jo. UU No. 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_56_pid.sus_2026_pn_tgl_20261106223620.pdf,hal. 23; hal. 25,surya,alfa,verified
+PTN-012,tuntutan_bulan,42,putusan_56_pid.sus_2026_pn_tgl_20261106223620.pdf,hal. 2,surya,alfa,verified
+PTN-012,vonis_bulan,28,putusan_56_pid.sus_2026_pn_tgl_20261106223620.pdf,hal. 25,surya,alfa,verified
+PTN-012,denda_rupiah,0,putusan_56_pid.sus_2026_pn_tgl_20261106223620.pdf,hal. 25,surya,alfa,verified
+PTN-012,barang_bukti,"1 paket sabu dalam plastik klip bening dilapisi kapas dan isolasi putih di dalam bungkus rokok merk Signature (netto 0.20476 gram); 1 unit HP Oppo A95 warna Biru Muda; 1 unit HP Redmi warna Biru Tua",putusan_56_pid.sus_2026_pn_tgl_20261106223620.pdf,hal. 2; hal. 3; hal. 25; hal. 26,surya,alfa,verified
+PTN-012,keadaan_memberatkan,Perbuatan Para Terdakwa tidak mendukung program pemerintah yang sedang giat-giatnya dalam memberantas Narkotika,putusan_56_pid.sus_2026_pn_tgl_20261106223620.pdf,hal. 25,surya,alfa,verified
+PTN-012,keadaan_meringankan,Para Terdakwa mengakui terus terang dan menyesali perbuatannya; Para Terdakwa merupakan tulang punggung keluarga,putusan_56_pid.sus_2026_pn_tgl_20261106223620.pdf,hal. 25,surya,alfa,verified
+PTN-013,nomor_perkara,59/Pid.Sus/2026/PN Tgl,putusan_59_pid.sus_2026_pn_tgl_20261106223537.pdf,hal. 1,surya,alfa,verified
+PTN-013,pengadilan,Pengadilan Negeri Tegal,putusan_59_pid.sus_2026_pn_tgl_20261106223537.pdf,hal. 1,surya,alfa,verified
+PTN-013,tanggal_putusan,2026-08-27,putusan_59_pid.sus_2026_pn_tgl_20261106223537.pdf,hal. 61,surya,alfa,verified
+PTN-013,terdakwa_kode,TD-013,putusan_59_pid.sus_2026_pn_tgl_20261106223537.pdf,hal. 1,surya,alfa,verified
+PTN-013,jenis_narkotika,"Metamfetamina / Sabu, MDMA / Ekstasi (Inex), Clonazepam, dan Alprazolam",putusan_59_pid.sus_2026_pn_tgl_20261106223537.pdf,hal. 2; hal. 3; hal. 8; hal. 9; hal. 16; hal. 17,surya,alfa,verified
+PTN-013,berat_barang_bukti_gram,42.68,putusan_59_pid.sus_2026_pn_tgl_20261106223537.pdf,hal. 2; hal. 3; hal. 59; hal. 60,surya,alfa,verified
+PTN-013,pasal_dakwaan,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 tentang Narkotika jo. Pasal 20 huruf c UU No. 1 Tahun 2023 tentang KUHP; Pasal 609 ayat (2) huruf a UU No. 1 Tahun 2023 tentang KUHP sebagaimana telah diubah dengan Pasal VII angka 50 UU No. 1 Tahun 2026 tentang Penyesuaian Pidana; Pasal 62 UU No. 5 Tahun 1997 tentang Psikotropika",putusan_59_pid.sus_2026_pn_tgl_20261106223537.pdf,hal. 9; hal. 14; hal. 17,surya,alfa,verified
+PTN-013,pasal_terbukti,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 tentang Narkotika jo. Pasal 20 huruf c UU No. 1 Tahun 2023 tentang KUHP dan Pasal 62 UU No. 5 Tahun 1997 tentang Psikotropika",putusan_59_pid.sus_2026_pn_tgl_20261106223537.pdf,hal. 52; hal. 56; hal. 59,surya,alfa,verified
+PTN-013,tuntutan_bulan,60,putusan_59_pid.sus_2026_pn_tgl_20261106223537.pdf,hal. 2,surya,alfa,verified
+PTN-013,vonis_bulan,42,putusan_59_pid.sus_2026_pn_tgl_20261106223537.pdf,hal. 59,surya,alfa,verified
+PTN-013,denda_rupiah,0,putusan_59_pid.sus_2026_pn_tgl_20261106223537.pdf,hal. 59,surya,alfa,verified
+PTN-013,barang_bukti,"1 plastik klip berisi ekstasi (netto 0.56 gram); 8 plastik klip berisi sabu (total netto 39.64 gram); 6 plastik klip berisi sabu (total netto 1.06 gram); 1 plastik klip berisi sabu (netto 0.97 gram); 1 plastik klip berisi ekstasi (netto 0.45 gram); 4 butir EUFORISS Clonazepam 2 mg; 2 butir RIKLONA 2 Clonazepam 2 mg; 20 butir Alprazolam 0.5 mg; 1 butir ZOLYSAN 0.5 Alprazolam 0.5 mg; 1 tas selempang FAKELAB; 1 dompet ABAHE; 1 pouch karet putih; 1 bong kaca; 6 cangklong; 2 pipet kaca; 1 potongan sedotan; 1 tumpuk tissue putih; 1 isolasi FRAGILE; 1 tumpuk tissue terbungkus isolasi FRAGILE; 1 brankas besi TAFFGUARD; 1 kantong kain putih; 1 Kartu ATM BCA; 1 unit HP Samsung A55 5G warna pink",putusan_59_pid.sus_2026_pn_tgl_20261106223537.pdf,hal. 2; hal. 3; hal. 59; hal. 60,surya,alfa,verified
+PTN-013,keadaan_memberatkan,Perbuatan Terdakwa tidak mendukung dan bertentangan dengan program Pemerintah yang sedang giat dalam memberantas narkotika dan psikotropika; Perbuatan Terdakwa meresahkan Masyarakat; Terdakwa sudah menikmati hasilnya,putusan_59_pid.sus_2026_pn_tgl_20261106223537.pdf,hal. 58,surya,alfa,verified
+PTN-013,keadaan_meringankan,Terdakwa bersikap sopan dipersidangan; Terdakwa mengakui perbuatannya dan menyesali perbuatannya serta berjanji tidak akan mengulangi perbuatannya lagi; Terdakwa belum pernah dihukum,putusan_59_pid.sus_2026_pn_tgl_20261106223537.pdf,hal. 58; hal. 59,surya,alfa,verified
+PTN-014,nomor_perkara,65/Pid.Sus/2025/PN Tgl,putusan_65_pid.sus_2025_pn_tgl_20261108200637.pdf,hal. 1,surya,alfa,verified
+PTN-014,pengadilan,Pengadilan Negeri Tegal,putusan_65_pid.sus_2025_pn_tgl_20261108200637.pdf,hal. 1,surya,alfa,verified
+PTN-014,tanggal_putusan,2025-09-15,putusan_65_pid.sus_2025_pn_tgl_20261108200637.pdf,hal. 56,surya,alfa,verified
+PTN-014,terdakwa_kode,TD-014,putusan_65_pid.sus_2025_pn_tgl_20261108200637.pdf,hal. 1,surya,alfa,verified
+PTN-014,jenis_narkotika,"Metamfetamina / Sabu dan Tembakau Gorila (MDMB-4en PINACA)",putusan_65_pid.sus_2025_pn_tgl_20261108200637.pdf,hal. 2; hal. 3; hal. 9; hal. 55,surya,alfa,verified
+PTN-014,berat_barang_bukti_gram,0.58,putusan_65_pid.sus_2025_pn_tgl_20261108200637.pdf,hal. 2; hal. 3; hal. 56,surya,alfa,verified
+PTN-014,pasal_dakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika; Pasal 112 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika; Pasal 62 UU No. 5 Tahun 1997 tentang Psikotropika",putusan_65_pid.sus_2025_pn_tgl_20261108200637.pdf,hal. 10; hal. 15; hal. 21,surya,alfa,verified
+PTN-014,pasal_terbukti,Pasal 112 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika,putusan_65_pid.sus_2025_pn_tgl_20261108200637.pdf,hal. 53; hal. 55,surya,alfa,verified
+PTN-014,tuntutan_bulan,72,putusan_65_pid.sus_2025_pn_tgl_20261108200637.pdf,hal. 2,surya,alfa,verified
+PTN-014,vonis_bulan,60,putusan_65_pid.sus_2025_pn_tgl_20261108200637.pdf,hal. 55,surya,alfa,verified
+PTN-014,denda_rupiah,1000000000,putusan_65_pid.sus_2025_pn_tgl_20261108200637.pdf,hal. 55,surya,alfa,verified
+PTN-014,barang_bukti,"1 plastik klip berisi sabu (0.26 gram berikut plastik klip); 1 puntung rokok berisi tembakau gorila (0.32 gram berikut papir); 5 butir Clonazepam 2 mg; 2 butir Alprazolam 0.5 mg; 5 butir Clozapine 25 mg; 4 butir obat kuning bertuliskan mf; 3 butir obat dalam kemasan warna silver; 1 alat hisap/bong; 2 potongan pipet kaca; 1 korek gas warna kuning; 1 unit HP VIVO Y71 warna hitam",putusan_65_pid.sus_2025_pn_tgl_20261108200637.pdf,hal. 2; hal. 3; hal. 56,surya,alfa,verified
+PTN-014,keadaan_memberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah terhadap pemberantasan narkotika,putusan_65_pid.sus_2025_pn_tgl_20261108200637.pdf,hal. 55,surya,alfa,verified
+PTN-014,keadaan_meringankan,Terdakwa bersikap sopan dan mengakui terus terang; Terdakwa kooperatif ketika dilakukan pemeriksaan di Pengadilan; Terdakwa menyesali perbuatannya dan berjanji tidak akan mengulanginya,putusan_65_pid.sus_2025_pn_tgl_20261108200637.pdf,hal. 55,surya,alfa,verified
+PTN-015,nomor_perkara,71/Pid.Sus/2026/PN Tgl,putusan_71_pid.sus_2026_pn_tgl_20261106223611.pdf,hal. 1,surya,alfa,verified
+PTN-015,pengadilan,Pengadilan Negeri Tegal,putusan_71_pid.sus_2026_pn_tgl_20261106223611.pdf,hal. 1,surya,alfa,verified
+PTN-015,tanggal_putusan,2026-09-24,putusan_71_pid.sus_2026_pn_tgl_20261106223611.pdf,hal. 23,surya,alfa,verified
+PTN-015,terdakwa_kode,TD-015,putusan_71_pid.sus_2026_pn_tgl_20261106223611.pdf,hal. 1,surya,alfa,verified
+PTN-015,jenis_narkotika,Tembakau Gorila (MDMB-4en PINACA),putusan_71_pid.sus_2026_pn_tgl_20261106223611.pdf,hal. 2; hal. 5; hal. 22,surya,alfa,verified
+PTN-015,berat_barang_bukti_gram,1.84,putusan_71_pid.sus_2026_pn_tgl_20261106223611.pdf,hal. 2; hal. 22,surya,alfa,verified
+PTN-015,pasal_dakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika; Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 tentang KUHP sebagaimana telah diubah dengan Pasal VII angka 50 UU No. 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_71_pid.sus_2026_pn_tgl_20261106223611.pdf,hal. 5; hal. 7,surya,alfa,verified
+PTN-015,pasal_terbukti,"Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 tentang KUHP sebagaimana telah diubah dengan Pasal VII angka 50 UU No. 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_71_pid.sus_2026_pn_tgl_20261106223611.pdf,hal. 15; hal. 22,surya,alfa,verified
+PTN-015,tuntutan_bulan,48,putusan_71_pid.sus_2026_pn_tgl_20261106223611.pdf,hal. 2,surya,alfa,verified
+PTN-015,vonis_bulan,36,putusan_71_pid.sus_2026_pn_tgl_20261106223611.pdf,hal. 22,surya,alfa,verified
+PTN-015,denda_rupiah,0,putusan_71_pid.sus_2026_pn_tgl_20261106223611.pdf,hal. 22,surya,alfa,verified
+PTN-015,barang_bukti,"1 plastik klip berisi irisan daun Narkotika jenis Tembakau Gorila (1.84 gram berikut plastik klip) berlapis isolasi warna coklat; 1 unit HP VIVO V25 warna Aquamarine Blue berikut Sim Card; 1 unit sepeda motor HONDA BEAT warna hitam No. Pol. G-6123-HQ berikut kunci kontak",putusan_71_pid.sus_2026_pn_tgl_20261106223611.pdf,hal. 2; hal. 22; hal. 23,surya,alfa,verified
+PTN-015,keadaan_memberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah yang sedang giat-giatnya dalam memberantas Narkotika; Perbuatan Terdakwa meresahkan masyarakat,putusan_71_pid.sus_2026_pn_tgl_20261106223611.pdf,hal. 22,surya,alfa,verified
+PTN-015,keadaan_meringankan,Terdakwa mengakui terus terang dan menyesali perbuatannya; Terdakwa belum pernah dihukum,putusan_71_pid.sus_2026_pn_tgl_20261106223611.pdf,hal. 22,surya,alfa,verified
+PTN-016,nomor_perkara,73/Pid.Sus/2026/PN Tgl,putusan_73_pid.sus_2026_pn_tgl_20261106223043.pdf,hal. 1,surya,alfa,verified
+PTN-016,pengadilan,Pengadilan Negeri Tegal,putusan_73_pid.sus_2026_pn_tgl_20261106223043.pdf,hal. 1,surya,alfa,verified
+PTN-016,tanggal_putusan,2026-10-01,putusan_73_pid.sus_2026_pn_tgl_20261106223043.pdf,hal. 32,surya,alfa,verified
+PTN-016,terdakwa_kode,TD-016,putusan_73_pid.sus_2026_pn_tgl_20261106223043.pdf,hal. 1,surya,alfa,verified
+PTN-016,jenis_narkotika,Metamfetamina / Sabu,putusan_73_pid.sus_2026_pn_tgl_20261106223043.pdf,hal. 2; hal. 7; hal. 31,surya,alfa,verified
+PTN-016,berat_barang_bukti_gram,0.27591,putusan_73_pid.sus_2026_pn_tgl_20261106223043.pdf,hal. 2; hal. 31,surya,alfa,verified
+PTN-016,pasal_dakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika; Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 tentang KUHP sebagaimana telah diubah dengan Pasal VII angka 50 UU No. 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_73_pid.sus_2026_pn_tgl_20261106223043.pdf,hal. 7; hal. 12,surya,alfa,verified
+PTN-016,pasal_terbukti,"Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 tentang KUHP sebagaimana telah diubah dengan Pasal VII angka 50 UU No. 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_73_pid.sus_2026_pn_tgl_20261106223043.pdf,hal. 24; hal. 31,surya,alfa,verified
+PTN-016,tuntutan_bulan,48,putusan_73_pid.sus_2026_pn_tgl_20261106223043.pdf,hal. 2,surya,alfa,verified
+PTN-016,vonis_bulan,36,putusan_73_pid.sus_2026_pn_tgl_20261106223043.pdf,hal. 31,surya,alfa,verified
+PTN-016,denda_rupiah,0,putusan_73_pid.sus_2026_pn_tgl_20261106223043.pdf,hal. 31,surya,alfa,verified
+PTN-016,barang_bukti,"Serbuk kristal sabu (berat bersih 0.27591 gram); 1 bungkus rokok L.A ICE warna biru ungu; 1 unit HP SAMSUNG Galaxy A05 warna dark blue berikut Sim Card; 1 unit sepeda motor HONDA Beat tahun 2008 warna hitam No. Pol. G-2781-LE atas nama Heri Warsito berikut kunci kontak dan STNK",putusan_73_pid.sus_2026_pn_tgl_20261106223043.pdf,hal. 2; hal. 31,surya,alfa,verified
+PTN-016,keadaan_memberatkan,Terdakwa tidak mendukung program pemerintah dalam pemberantasan Narkotika,putusan_73_pid.sus_2026_pn_tgl_20261106223043.pdf,hal. 30,surya,alfa,verified
+PTN-016,keadaan_meringankan,Terdakwa mengakui perbuatannya dan menyesali perbuatannya serta berjanji tidak akan mengulangi perbuatannya lagi,putusan_73_pid.sus_2026_pn_tgl_20261106223043.pdf,hal. 31,surya,alfa,verified
+PTN-017,nomor_perkara,74/Pid.Sus/2026/PN Tgl,putusan_74_pid.sus_2026_pn_tgl_20261106223313.pdf,hal. 1,surya,alfa,verified
+PTN-017,pengadilan,Pengadilan Negeri Tegal,putusan_74_pid.sus_2026_pn_tgl_20261106223313.pdf,hal. 1,surya,alfa,verified
+PTN-017,tanggal_putusan,2026-10-01,putusan_74_pid.sus_2026_pn_tgl_20261106223313.pdf,hal. 41; hal. 42,surya,alfa,verified
+PTN-017,terdakwa_kode,TD-017,putusan_74_pid.sus_2026_pn_tgl_20261106223313.pdf,hal. 1,surya,alfa,verified
+PTN-017,jenis_narkotika,"Psikotropika Golongan IV: Klonazepam (Riklona 2); Obat Keras Daftar G: Tramadol",putusan_74_pid.sus_2026_pn_tgl_20261106223313.pdf,hal. 2; hal. 4; hal. 6; hal. 41,surya,alfa,verified
+PTN-017,berat_barang_bukti_gram,0,putusan_74_pid.sus_2026_pn_tgl_20261106223313.pdf,hal. 2; hal. 41,surya,alfa,verified
+PTN-017,pasal_dakwaan,"Pasal 62 UU No. 5 Tahun 1997 tentang Psikotropika; Pasal 435 UU No. 17 Tahun 2023 tentang Kesehatan jo. Pasal 17 ayat (1) UU No. 1 Tahun 2023 tentang KUHP; Pasal 436 ayat (2) UU No. 17 Tahun 2023 tentang Kesehatan",putusan_74_pid.sus_2026_pn_tgl_20261106223313.pdf,hal. 5; hal. 7; hal. 9,surya,alfa,verified
+PTN-017,pasal_terbukti,"Pasal 62 UU No. 5 Tahun 1997 tentang Psikotropika dan Pasal 435 UU No. 17 Tahun 2023 tentang Kesehatan jo. Pasal 17 ayat (1) UU No. 1 Tahun 2023 tentang KUHP",putusan_74_pid.sus_2026_pn_tgl_20261106223313.pdf,hal. 28; hal. 37; hal. 41,surya,alfa,verified
+PTN-017,tuntutan_bulan,48,putusan_74_pid.sus_2026_pn_tgl_20261106223313.pdf,hal. 2,surya,alfa,verified
+PTN-017,vonis_bulan,42,putusan_74_pid.sus_2026_pn_tgl_20261106223313.pdf,hal. 41,surya,alfa,verified
+PTN-017,denda_rupiah,0,putusan_74_pid.sus_2026_pn_tgl_20261106223313.pdf,hal. 41,surya,alfa,verified
+PTN-017,barang_bukti,"19 butir obat dalam kemasan warna silver bertuliskan Riklona 2 Clonazepam Tablet Salut Selaput 2 mg; 200 butir obat dalam kemasan warna silver hijau (Tramadol); 1 buah plastik kecil warna biru; 1 unit HP Infinix Smart 8 warna midnight blue berikut Sim Card; 1 unit sepeda motor Honda Beat warna biru putih No. Pol. G-3138-AAG berikut kunci kontak",putusan_74_pid.sus_2026_pn_tgl_20261106223313.pdf,hal. 2; hal. 41,surya,alfa,verified
+PTN-017,keadaan_memberatkan,Perbuatan Terdakwa tidak mendukung dan bertentangan dengan program Pemerintah yang sedang giat dalam memberantas peredaran obat-obat terlarang; Terdakwa pernah dihukum,putusan_74_pid.sus_2026_pn_tgl_20261106223313.pdf,hal. 40,surya,alfa,verified
+PTN-017,keadaan_meringankan,Terdakwa bersikap sopan dipersidangan; Terdakwa mengakui perbuatannya dan menyesali perbuatannya serta berjanji tidak akan mengulangi perbuatannya lagi,putusan_74_pid.sus_2026_pn_tgl_20261106223313.pdf,hal. 40,surya,alfa,verified
+PTN-018,nomor_perkara,76/Pid.Sus/2025/PN Tgl,putusan_76_pid.sus_2025_pn_tgl_20261108200654.pdf,hal. 1,surya,alfa,verified
+PTN-018,pengadilan,Pengadilan Negeri Tegal,putusan_76_pid.sus_2025_pn_tgl_20261108200654.pdf,hal. 1,surya,alfa,verified
+PTN-018,tanggal_putusan,2025-08-27,putusan_76_pid.sus_2025_pn_tgl_20261108200654.pdf,hal. 33,surya,alfa,verified
+PTN-018,terdakwa_kode,TD-018,putusan_76_pid.sus_2025_pn_tgl_20261108200654.pdf,hal. 1,surya,alfa,verified
+PTN-018,jenis_narkotika,Tembakau Gorila (MDMB-4en PINACA),putusan_76_pid.sus_2025_pn_tgl_20261108200654.pdf,hal. 2; hal. 5; hal. 32,surya,alfa,verified
+PTN-018,berat_barang_bukti_gram,5.09,putusan_76_pid.sus_2025_pn_tgl_20261108200654.pdf,hal. 2; hal. 32,surya,alfa,verified
+PTN-018,pasal_dakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika; Pasal 112 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika",putusan_76_pid.sus_2025_pn_tgl_20261108200654.pdf,hal. 5; hal. 8,surya,alfa,verified
+PTN-018,pasal_terbukti,"Pasal 112 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika",putusan_76_pid.sus_2025_pn_tgl_20261108200654.pdf,hal. 30; hal. 32,surya,alfa,verified
+PTN-018,tuntutan_bulan,84,putusan_76_pid.sus_2025_pn_tgl_20261108200654.pdf,hal. 2,surya,alfa,verified
+PTN-018,vonis_bulan,72,putusan_76_pid.sus_2025_pn_tgl_20261108200654.pdf,hal. 32,surya,alfa,verified
+PTN-018,denda_rupiah,1000000000,putusan_76_pid.sus_2025_pn_tgl_20261108200654.pdf,hal. 32,surya,alfa,verified
+PTN-018,barang_bukti,"1 plastik klip berisi Tembakau Gorila (5.09 gram ditimbang berikut plastik klip) terbungkus tissue warna putih berlapis isolasi coklat; 1 unit HP Samsung M15 5G warna Dark Blue berikut Sim Card; 1 unit sepeda motor Honda Beat warna hitam No. Pol. G-2630-ZQ tahun 2015 berikut kunci kontak dan STNK",putusan_76_pid.sus_2025_pn_tgl_20261108200654.pdf,hal. 2; hal. 32; hal. 33,surya,alfa,verified
+PTN-018,keadaan_memberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah terhadap pemberantasan narkotika,putusan_76_pid.sus_2025_pn_tgl_20261108200654.pdf,hal. 31,surya,alfa,verified
+PTN-018,keadaan_meringankan,Terdakwa menyesali perbuatannya dan berjanji tidak akan mengulanginya; Terdakwa mengakui terus terang perbuatannya; Terdakwa merupakan tulang punggung keluarga,putusan_76_pid.sus_2025_pn_tgl_20261108200654.pdf,hal. 32,surya,alfa,verified
+PTN-019,nomor_perkara,77/Pid.Sus/2025/PN Tgl,putusan_77_pid.sus_2025_pn_tgl_20261113142620.pdf,hal. 1,surya,alfa,verified
+PTN-019,pengadilan,Pengadilan Negeri Tegal,putusan_77_pid.sus_2025_pn_tgl_20261113142620.pdf,hal. 1,surya,alfa,verified
+PTN-019,tanggal_putusan,2025-08-27,putusan_77_pid.sus_2025_pn_tgl_20261113142620.pdf,hal. 61; hal. 62,surya,alfa,verified
+PTN-019,terdakwa_kode,TD-019,putusan_77_pid.sus_2025_pn_tgl_20261113142620.pdf,hal. 1,surya,alfa,verified
+PTN-019,jenis_narkotika,Tembakau Gorila (MDMB-4en-PINACA),putusan_77_pid.sus_2025_pn_tgl_20261113142620.pdf,hal. 2; hal. 6; hal. 60,surya,alfa,verified
+PTN-019,berat_barang_bukti_gram,151.7809,putusan_77_pid.sus_2025_pn_tgl_20261113142620.pdf,hal. 6; hal. 60,surya,alfa,verified
+PTN-019,pasal_dakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika Jo. Pasal 55 ayat (1) ke-1 KUHP; Pasal 112 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika Jo. Pasal 55 ayat (1) ke-1 KUHP",putusan_77_pid.sus_2025_pn_tgl_20261113142620.pdf,hal. 7; hal. 12,surya,alfa,verified
+PTN-019,pasal_terbukti,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika Jo. Pasal 55 ayat (1) ke-1 KUHP",putusan_77_pid.sus_2025_pn_tgl_20261113142620.pdf,hal. 57; hal. 60,surya,alfa,verified
+PTN-019,tuntutan_bulan,144,putusan_77_pid.sus_2025_pn_tgl_20261113142620.pdf,hal. 2,surya,alfa,verified
+PTN-019,vonis_bulan,120,putusan_77_pid.sus_2025_pn_tgl_20261113142620.pdf,hal. 60,surya,alfa,verified
+PTN-019,denda_rupiah,1000000000,putusan_77_pid.sus_2025_pn_tgl_20261113142620.pdf,hal. 60,surya,alfa,verified
+PTN-019,barang_bukti,"34 bungkus/plastik berisi Tembakau Gorila (berat bersih 151.7809 gram); 710 butir obat bertuliskan Tramadol; 308 butir obat bertuliskan Trihexyphenidyl; 1 buah timbangan digital warna hitam; 1 buah lakban merah bertuliskan FRAGILE; 1 unit HP Vivo Y17 warna ungu berikut Sim Card; uang tunai Rp150.000; 1 unit sepeda motor Honda Scoopy warna hitam No. Pol. G-5295-APG berikut kunci kontak",putusan_77_pid.sus_2025_pn_tgl_20261113142620.pdf,hal. 2; hal. 3; hal. 4; hal. 60; hal. 61,surya,alfa,verified
+PTN-019,keadaan_memberatkan,Perbuatan Terdakwa tidak mendukung program Pemerintah dalam pemberantasan tindak pidana narkotika; Perbuatan Terdakwa dapat merusak masa depan generasi penerus bangsa,putusan_77_pid.sus_2025_pn_tgl_20261113142620.pdf,hal. 59,surya,alfa,verified
+PTN-019,keadaan_meringankan,Terdakwa bersikap sopan di persidangan; Terdakwa berterus terang mengakui dan menyesali perbuatannya serta berjanji tidak akan mengulanginya lagi; Terdakwa belum pernah dihukum,putusan_77_pid.sus_2025_pn_tgl_20261113142620.pdf,hal. 59; hal. 60,surya,alfa,verified
+PTN-020,nomor_perkara,78/Pid.Sus/2025/PN Tgl,putusan_78_pid.sus_2025_pn_tgl_20261113142655.pdf,hal. 1,surya,alfa,verified
+PTN-020,pengadilan,Pengadilan Negeri Tegal,putusan_78_pid.sus_2025_pn_tgl_20261113142655.pdf,hal. 1,surya,alfa,verified
+PTN-020,tanggal_putusan,2025-08-27,putusan_78_pid.sus_2025_pn_tgl_20261113142655.pdf,hal. 57; hal. 58,surya,alfa,verified
+PTN-020,terdakwa_kode,TD-020,putusan_78_pid.sus_2025_pn_tgl_20261113142655.pdf,hal. 1,surya,alfa,verified
+PTN-020,jenis_narkotika,Tembakau Gorila (MDMB-4en-PINACA),putusan_78_pid.sus_2025_pn_tgl_20261113142655.pdf,hal. 2; hal. 6; hal. 56,surya,alfa,verified
+PTN-020,berat_barang_bukti_gram,60.92424,putusan_78_pid.sus_2025_pn_tgl_20261113142655.pdf,hal. 6; hal. 56,surya,alfa,verified
+PTN-020,pasal_dakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika Jo. Pasal 55 ayat (1) ke-1 KUHP; Pasal 112 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika Jo. Pasal 55 ayat (1) ke-1 KUHP",putusan_78_pid.sus_2025_pn_tgl_20261113142655.pdf,hal. 7; hal. 11,surya,alfa,verified
+PTN-020,pasal_terbukti,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika Jo. Pasal 55 ayat (1) ke-1 KUHP",putusan_78_pid.sus_2025_pn_tgl_20261113142655.pdf,hal. 54; hal. 56,surya,alfa,verified
+PTN-020,tuntutan_bulan,96,putusan_78_pid.sus_2025_pn_tgl_20261113142655.pdf,hal. 2,surya,alfa,verified
+PTN-020,vonis_bulan,72,putusan_78_pid.sus_2025_pn_tgl_20261113142655.pdf,hal. 56,surya,alfa,verified
+PTN-020,denda_rupiah,1000000000,putusan_78_pid.sus_2025_pn_tgl_20261113142655.pdf,hal. 56,surya,alfa,verified
+PTN-020,barang_bukti,"25 plastik klip bening berisi Tembakau Gorila (berat bersih 60.92424 gram); 1 buah kartu ATM BCA; 1 unit HP Infinix Note 40 Pro warna hijau berikut Sim Card; uang tunai Rp750.000; 1 unit sepeda motor Yamaha Fino warna merah marun No. Pol. G-3513-ZZ berikut kunci kontak",putusan_78_pid.sus_2025_pn_tgl_20261113142655.pdf,hal. 2; hal. 3; hal. 56; hal. 57,surya,alfa,verified
+PTN-020,keadaan_memberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah terhadap pemberantasan narkotika; Perbuatan Terdakwa meresahkan masyarakat serta merusak generasi muda,putusan_78_pid.sus_2025_pn_tgl_20261113142655.pdf,hal. 55,surya,alfa,verified
+PTN-020,keadaan_meringankan,Terdakwa menyesali perbuatannya dan berjanji tidak akan mengulanginya; Terdakwa mengakui terus terang perbuatannya sehingga memperlancar jalannya persidangan; Terdakwa belum pernah dihukum,putusan_78_pid.sus_2025_pn_tgl_20261113142655.pdf,hal. 55; hal. 56,surya,alfa,verified
+PTN-021,nomor_perkara,83/Pid.Sus/2025/PN Tgl,putusan_83_pid.sus_2025_pn_tgl_20261108200557.pdf,hal. 1,surya,alfa,verified
+PTN-021,pengadilan,Pengadilan Negeri Tegal,putusan_83_pid.sus_2025_pn_tgl_20261108200557.pdf,hal. 1,surya,alfa,verified
+PTN-021,tanggal_putusan,2025-09-24,putusan_83_pid.sus_2025_pn_tgl_20261108200557.pdf,hal. 66,surya,alfa,verified
+PTN-021,terdakwa_kode,TD-021,putusan_83_pid.sus_2025_pn_tgl_20261108200557.pdf,hal. 1,surya,alfa,verified
+PTN-021,jenis_narkotika,"Sabu (Metamfetamina); Psikotropika Golongan IV: Alprazolam",putusan_83_pid.sus_2025_pn_tgl_20261108200557.pdf,hal. 2; hal. 3; hal. 9; hal. 22; hal. 64,surya,alfa,verified
+PTN-021,berat_barang_bukti_gram,6.51255,putusan_83_pid.sus_2025_pn_tgl_20261108200557.pdf,hal. 9; hal. 10; hal. 11; hal. 64; hal. 65,surya,alfa,verified
+PTN-021,pasal_dakwaan,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 tentang Narkotika; Pasal 112 ayat (2) UU No. 35 Tahun 2009 tentang Narkotika; Pasal 62 UU No. 5 Tahun 1997 tentang Psikotropika",putusan_83_pid.sus_2025_pn_tgl_20261108200557.pdf,hal. 11; hal. 18; hal. 23; hal. 47,surya,alfa,verified
+PTN-021,pasal_terbukti,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 tentang Narkotika dan Pasal 62 UU No. 5 Tahun 1997 tentang Psikotropika",putusan_83_pid.sus_2025_pn_tgl_20261108200557.pdf,hal. 62; hal. 64,surya,alfa,verified
+PTN-021,tuntutan_bulan,144,putusan_83_pid.sus_2025_pn_tgl_20261108200557.pdf,hal. 2,surya,alfa,verified
+PTN-021,vonis_bulan,120,putusan_83_pid.sus_2025_pn_tgl_20261108200557.pdf,hal. 64; hal. 65,surya,alfa,verified
+PTN-021,denda_rupiah,1000000000,putusan_83_pid.sus_2025_pn_tgl_20261108200557.pdf,hal. 64,surya,alfa,verified
+PTN-021,barang_bukti,"31 plastik klip berisi Sabu (total berat bersih 6.51255 gram / berat kotor 10.14 gram); 2 butir obat dalam kemasan warna silver bertuliskan ALPRAZOLAM Tablet 1 mg; 1 unit HP TECNO KL7 warna grey berikut SIM Card; 2 buah plastik klip ukuran panjang; 1 pak plastik klip ukuran sedang; 1 buah bungkus rokok TWIZZ warna ungu; 2 buah isolasi besar warna merah bertuliskan FRAGILE; 1 buah isolasi double tape warna hijau; 3 buah sedotan plastik warna putih; 1 pak tissue; 1 buah gunting; 1 buah pipet kaca; 1 buah korek gas warna orange; 1 buah bong (alat hisap) dari botol plastik LE MINERALE; 1 buah mesin press plastik; 1 buah kartu ATM Tabungan Xpresi BCA No. 6019-0050-5933-7423",putusan_83_pid.sus_2025_pn_tgl_20261108200557.pdf,hal. 2; hal. 3; hal. 4; hal. 65; hal. 66,surya,alfa,verified
+PTN-021,keadaan_memberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah terhadap pemberantasan narkotika; Terdakwa sudah pernah dihukum (residivis),putusan_83_pid.sus_2025_pn_tgl_20261108200557.pdf,hal. 64,surya,alfa,verified
+PTN-021,keadaan_meringankan,Terdakwa bersikap sopan dan mengakui terus terang perbuatannya; Terdakwa kooperatif ketika dilakukan pemeriksaan di Pengadilan,putusan_83_pid.sus_2025_pn_tgl_20261108200557.pdf,hal. 64,surya,alfa,verified
+PTN-022,nomor_perkara,84/Pid.Sus/2025/PN Tgl,putusan_84_pid.sus_2025_pn_tgl_20261108200540.pdf,hal. 1,surya,alfa,verified
+PTN-022,pengadilan,Pengadilan Negeri Tegal,putusan_84_pid.sus_2025_pn_tgl_20261108200540.pdf,hal. 1,surya,alfa,verified
+PTN-022,tanggal_putusan,2025-09-24,putusan_84_pid.sus_2025_pn_tgl_20261108200540.pdf,hal. 46,surya,alfa,verified
+PTN-022,terdakwa_kode,TD-022,putusan_84_pid.sus_2025_pn_tgl_20261108200540.pdf,hal. 1,surya,alfa,verified
+PTN-022,jenis_narkotika,"Ganja; Tembakau Gorila (MDMB-4en-PINACA)",putusan_84_pid.sus_2025_pn_tgl_20261108200540.pdf,hal. 2; hal. 6; hal. 45,surya,alfa,verified
+PTN-022,berat_barang_bukti_gram,24.94023,putusan_84_pid.sus_2025_pn_tgl_20261108200540.pdf,hal. 6; hal. 7; hal. 45,surya,alfa,verified
+PTN-022,pasal_dakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika; Pasal 111 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika; Pasal 112 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika",putusan_84_pid.sus_2025_pn_tgl_20261108200540.pdf,hal. 7; hal. 10; hal. 13; hal. 27,surya,alfa,verified
+PTN-022,pasal_terbukti,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika dan Pasal 112 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika",putusan_84_pid.sus_2025_pn_tgl_20261108200540.pdf,hal. 45,surya,alfa,verified
+PTN-022,tuntutan_bulan,120,putusan_84_pid.sus_2025_pn_tgl_20261108200540.pdf,hal. 2,surya,alfa,verified
+PTN-022,vonis_bulan,96,putusan_84_pid.sus_2025_pn_tgl_20261108200540.pdf,hal. 45,surya,alfa,verified
+PTN-022,denda_rupiah,1000000000,putusan_84_pid.sus_2025_pn_tgl_20261108200540.pdf,hal. 45,surya,alfa,verified
+PTN-022,barang_bukti,"2 plastik klip berisi Ganja (berat bersih 22.01015 gram / berat kotor 22.12 gram); 5 plastik klip dan 1 puntung rokok berisi Tembakau Gorila (berat bersih 2.93008 gram / berat kotor 6.54 gram); 1 unit HP OPPO A3S warna hitam berikut SIM Card; 1 buah isolasi besar warna putih; 1 pak kertas papir merk MARS BRAND; 1 buah dompet warna merah bertuliskan PILKITA; 1 buah timbangan digital warna silver; 1 unit sepeda motor HONDA VARIO warna hitam tahun 2019 No. Pol. G-4096-RN berikut kunci kontak dan STNK",putusan_84_pid.sus_2025_pn_tgl_20261108200540.pdf,hal. 2; hal. 3; hal. 45; hal. 46,surya,alfa,verified
+PTN-022,keadaan_memberatkan,Perbuatan Terdakwa tidak mendukung dan bertentangan dengan program Pemerintah untuk memberantas penggunaan narkotika; Terdakwa sudah pernah dihukum,putusan_84_pid.sus_2025_pn_tgl_20261108200540.pdf,hal. 44,surya,alfa,verified
+PTN-022,keadaan_meringankan,Terdakwa bersikap sopan dipersidangan; Terdakwa mengakui perbuatannya dan menyesali perbuatannya serta berjanji tidak akan mengulangi perbuatannya lagi,putusan_84_pid.sus_2025_pn_tgl_20261108200540.pdf,hal. 44,surya,alfa,verified
+PTN-023,nomor_perkara,86/Pid.Sus/2025/PN Tgl,putusan_86_pid.sus_2025_pn_tgl_20261108200610.pdf,hal. 1,surya,alfa,verified
+PTN-023,pengadilan,Pengadilan Negeri Tegal,putusan_86_pid.sus_2025_pn_tgl_20261108200610.pdf,hal. 1,surya,alfa,verified
+PTN-023,tanggal_putusan,2025-09-23,putusan_86_pid.sus_2025_pn_tgl_20261108200610.pdf,hal. 104,surya,alfa,verified
+PTN-023,terdakwa_kode,TD-023,putusan_86_pid.sus_2025_pn_tgl_20261108200610.pdf,hal. 1,surya,alfa,verified
+PTN-023,jenis_narkotika,"Sabu (Metamfetamina); Ekstasi (Mefedron dan MDMA); Psikotropika Golongan IV: Klonazepam (Riklona 2) dan Alprazolam",putusan_86_pid.sus_2025_pn_tgl_20261108200610.pdf,hal. 6; hal. 7; hal. 14; hal. 15,surya,alfa,verified
+PTN-023,berat_barang_bukti_gram,14.11,putusan_86_pid.sus_2025_pn_tgl_20261108200610.pdf,hal. 2; hal. 3; hal. 6; hal. 7,surya,alfa,verified
+PTN-023,pasal_dakwaan,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 tentang Narkotika; Pasal 112 ayat (2) UU No. 35 Tahun 2009 tentang Narkotika; Pasal 62 UU No. 5 Tahun 1997 tentang Psikotropika",putusan_86_pid.sus_2025_pn_tgl_20261108200610.pdf,hal. 4; hal. 8; hal. 11; hal. 12; hal. 15,surya,alfa,verified
+PTN-023,pasal_terbukti,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 tentang Narkotika dan Pasal 62 UU No. 5 Tahun 1997 tentang Psikotropika",putusan_86_pid.sus_2025_pn_tgl_20261108200610.pdf,hal. 2; hal. 102; hal. 103,surya,alfa,verified
+PTN-023,tuntutan_bulan,84,putusan_86_pid.sus_2025_pn_tgl_20261108200610.pdf,hal. 2,surya,alfa,verified
+PTN-023,vonis_bulan,60,putusan_86_pid.sus_2025_pn_tgl_20261108200610.pdf,hal. 103,surya,alfa,verified
+PTN-023,denda_rupiah,1400000000,putusan_86_pid.sus_2025_pn_tgl_20261108200610.pdf,hal. 2; hal. 103,surya,alfa,verified
+PTN-023,barang_bukti,"12 plastik klip berisi Sabu (total berat kotor 3.12 gram); 4 plastik klip berisi Sabu (total berat kotor 1.65 gram); 1 plastik klip berisi Sabu (berat kotor 3.88 gram); 3 buah pipet kaca berisi sisa Sabu (total berat kotor 5.46 gram); 1 plastik klip berisi 5,5 butir Ekstasi warna biru (berat kotor 2.76 gram); 1 plastik klip berisi serbuk Ekstasi warna pink (berat kotor 0.42 gram); 1 butir obat RIKLONA 2 CLONAZEPAM 2 mg; 7 buah plastik klip ukuran kecil; 1 botol HAPPYDENT; 1 botol XYLITOL; 2 korek gas; 10 sedotan plastik hitam; 10 sedotan plastik biru; 1 buah bong dari botol plastik PERFECT; 1 timbangan digital hitam; 1 unit HP iPhone 12 Pro warna dark blue berikut SIM Card; 1 unit HP Realme 5 Pro warna hitam berikut SIM Card; 1 unit sepeda motor YAMAHA FINO warna abu-abu tahun 2017 No. Pol. G-6910-PI berikut kunci kontak dan STNK; 1 kartu ATM BCA No. 6019-0085-4084-2761; 1 Buku Tabungan BCA No. Rek. 0471-5261-41",putusan_86_pid.sus_2025_pn_tgl_20261108200610.pdf,hal. 2; hal. 3; hal. 4; hal. 103; hal. 104,surya,alfa,verified
+PTN-023,keadaan_memberatkan,"Perbuatan Terdakwa tidak mendukung program pemerintah dalam memberantas tindak pidana narkotika dan prekursor narkotika; Perbuatan Terdakwa meresahkan masyarakat; Perbuatan Terdakwa dapat merusak generasi penerus bangsa",putusan_86_pid.sus_2025_pn_tgl_20261108200610.pdf,hal. 102,surya,alfa,verified
+PTN-023,keadaan_meringankan,"Terdakwa berlaku sopan di persidangan; Terdakwa mengakui perbuatannya; Terdakwa menyesali perbuatannya; Terdakwa merasa bersalah; Terdakwa berjanji tidak mengulangi lagi; Terdakwa tidak memberikan keterangan berbelit-belit",putusan_86_pid.sus_2025_pn_tgl_20261108200610.pdf,hal. 102,surya,alfa,verified
+PTN-024,nomor_perkara,87/Pid.Sus/2025/PN Tgl,putusan_87_pid.sus_2025_pn_tgl_20261108200619.pdf,hal. 1,surya,alfa,verified
+PTN-024,pengadilan,Pengadilan Negeri Tegal,putusan_87_pid.sus_2025_pn_tgl_20261108200619.pdf,hal. 1,surya,alfa,verified
+PTN-024,tanggal_putusan,2025-09-23,putusan_87_pid.sus_2025_pn_tgl_20261108200619.pdf,hal. 87,surya,alfa,verified
+PTN-024,terdakwa_kode,TD-024,putusan_87_pid.sus_2025_pn_tgl_20261108200619.pdf,hal. 1,surya,alfa,verified
+PTN-024,jenis_narkotika,"Sabu (Metamfetamina); Ekstasi (Mefedron dan MDMA); Psikotropika Golongan IV: Klonazepam (Riklona 2)",putusan_87_pid.sus_2025_pn_tgl_20261108200619.pdf,hal. 5; hal. 6; hal. 72,surya,alfa,verified
+PTN-024,berat_barang_bukti_gram,14.11,putusan_87_pid.sus_2025_pn_tgl_20261108200619.pdf,hal. 4; hal. 5; hal. 71; hal. 78,surya,alfa,verified
+PTN-024,pasal_dakwaan,"Pasal 112 ayat (2) UU No. 35 Tahun 2009 tentang Narkotika; Pasal 127 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika; Pasal 131 UU No. 35 Tahun 2009 tentang Narkotika",putusan_87_pid.sus_2025_pn_tgl_20261108200619.pdf,hal. 7; hal. 11; hal. 15; hal. 69,surya,alfa,verified
+PTN-024,pasal_terbukti,Pasal 112 ayat (2) UU No. 35 Tahun 2009 tentang Narkotika,putusan_87_pid.sus_2025_pn_tgl_20261108200619.pdf,hal. 82; hal. 86,surya,alfa,verified
+PTN-024,tuntutan_bulan,72,putusan_87_pid.sus_2025_pn_tgl_20261108200619.pdf,hal. 2,surya,alfa,verified
+PTN-024,vonis_bulan,60,putusan_87_pid.sus_2025_pn_tgl_20261108200619.pdf,hal. 86,surya,alfa,verified
+PTN-024,denda_rupiah,1400000000,putusan_87_pid.sus_2025_pn_tgl_20261108200619.pdf,hal. 2; hal. 87,surya,alfa,verified
+PTN-024,barang_bukti,Nihil (seluruh barang bukti dilampirkan dan diputus dalam berkas perkara Nomor 86/Pid.Sus/2025/PN Tgl),putusan_87_pid.sus_2025_pn_tgl_20261108200619.pdf,hal. 87,surya,alfa,verified
+PTN-024,keadaan_memberatkan,"Perbuatan Terdakwa tidak mendukung program pemerintah dalam memberantas tindak pidana narkotika dan precursor narkotika; Perbuatan Terdakwa meresahkan masyarakat; Perbuatan Terdakwa dapat merusak generasi penerus bangsa",putusan_87_pid.sus_2025_pn_tgl_20261108200619.pdf,hal. 86,surya,alfa,verified
+PTN-024,keadaan_meringankan,"Terdakwa berlaku sopan di persidangan; Terdakwa mengakui perbuatannya; Terdakwa menyesali perbuatannya; Terdakwa merasa bersalah; Terdakwa berjanji tidak mengulangi lagi; Terdakwa tidak memeberikan keterangan berbelit belit",putusan_87_pid.sus_2025_pn_tgl_20261108200619.pdf,hal. 86,surya,alfa,verified
+PTN-025,nomor_perkara,90/Pid.Sus/2025/PN Tgl,putusan_90_pid.sus_2025_pn_tgl_20261108200646.pdf,hal. 1,surya,alfa,verified
+PTN-025,pengadilan,Pengadilan Negeri Tegal,putusan_90_pid.sus_2025_pn_tgl_20261108200646.pdf,hal. 1,surya,alfa,verified
+PTN-025,tanggal_putusan,2025-09-08,putusan_90_pid.sus_2025_pn_tgl_20261108200646.pdf,hal. 56,surya,alfa,verified
+PTN-025,terdakwa_kode,TD-025,putusan_90_pid.sus_2025_pn_tgl_20261108200646.pdf,hal. 1,surya,alfa,verified
+PTN-025,jenis_narkotika,Sabu (Metamfetamina),putusan_90_pid.sus_2025_pn_tgl_20261108200646.pdf,hal. 8; hal. 9; hal. 14; hal. 15,surya,alfa,verified
+PTN-025,berat_barang_bukti_gram,0.60741,putusan_90_pid.sus_2025_pn_tgl_20261108200646.pdf,hal. 8; hal. 14; hal. 38; hal. 43; hal. 52,surya,alfa,verified
+PTN-025,pasal_dakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika; Pasal 112 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika",putusan_90_pid.sus_2025_pn_tgl_20261108200646.pdf,hal. 3; hal. 9; hal. 15,surya,alfa,verified
+PTN-025,pasal_terbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika,putusan_90_pid.sus_2025_pn_tgl_20261108200646.pdf,hal. 53; hal. 55,surya,alfa,verified
+PTN-025,tuntutan_bulan,96,putusan_90_pid.sus_2025_pn_tgl_20261108200646.pdf,hal. 2; hal. 53,surya,alfa,verified
+PTN-025,vonis_bulan,84,putusan_90_pid.sus_2025_pn_tgl_20261108200646.pdf,hal. 55,surya,alfa,verified
+PTN-025,denda_rupiah,1000000000,putusan_90_pid.sus_2025_pn_tgl_20261108200646.pdf,hal. 2; hal. 53; hal. 55,surya,alfa,verified
+PTN-025,barang_bukti,"1 plastik klip berisi Sabu dengan berat kotor 0.33 gram (berat bersih 0.21768 gram) terbungkus plastik warna merah; 1 plastik klip berisi Sabu dengan berat kotor 0.44 gram (berat bersih 0.31576 gram) terbungkus tissue dengan lakban warna merah; 1 plastik klip berisi Sabu dengan berat kotor 0.19 gram (berat bersih 0.07397 gram); 1 buah alat hisap Sabu/bong dari botol plastik warna putih; 1 pak isi plastik klip kecil; 1 buah timbangan digital warna hitam; 1 buah dompet warna coklat; 1 unit Handphone TECHNO SPARK Go 1 warna grey berikut SIM Card; 1 unit Sepeda Motor HONDA Beat Street warna coklat tahun 2024 No. Pol. G-5371-BZF berikut kunci kontak",putusan_90_pid.sus_2025_pn_tgl_20261108200646.pdf,hal. 2; hal. 3; hal. 8; hal. 37; hal. 38; hal. 54; hal. 55; hal. 56,surya,alfa,verified
+PTN-025,keadaan_memberatkan,Perbuatan Terdakwa tidak mendukung dan bertentangan dengan program Pemerintah untuk memberantas penggunaan narkotika,putusan_90_pid.sus_2025_pn_tgl_20261108200646.pdf,hal. 55,surya,alfa,verified
+PTN-025,keadaan_meringankan,"Terdakwa bersikap sopan dipersidangan; Terdakwa mengakui perbuatannya dan menyesali perbuatannya serta berjanji tidak akan mengulangi perbuatannya lagi",putusan_90_pid.sus_2025_pn_tgl_20261108200646.pdf,hal. 55,surya,alfa,verified
