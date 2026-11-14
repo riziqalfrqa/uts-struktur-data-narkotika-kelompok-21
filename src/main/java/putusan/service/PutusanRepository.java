@@ -1,7 +1,7 @@
-package id.umm.putusan.service;
+package putusan.service;
 
-import id.umm.putusan.datastructure.DynamicArray;
-import id.umm.putusan.model.Putusan;
+import putusan.datastructure.DynamicArray;
+import putusan.model.Putusan;
 
 public class PutusanRepository {
     private final DynamicArray<Putusan> data = new DynamicArray<>(16);

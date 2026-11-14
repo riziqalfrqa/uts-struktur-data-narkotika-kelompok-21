@@ -6,6 +6,7 @@ import putusan.service.*;
 
 import java.nio.file.Path;
 import java.util.Scanner;
+import javax.swing.SwingUtilities;
 
 public class Main {
     private final PutusanRepository repository = new PutusanRepository();
@@ -14,7 +15,12 @@ public class Main {
     private final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        new Main().run();
+        if (args.length > 0 && "--cli".equals(args[0])) {
+            new Main().run();
+            return;
+        }
+        PutusanFrame.applyLookAndFeel();
+        SwingUtilities.invokeLater(() -> new PutusanFrame().setVisible(true));
     }
 
     private void run() {

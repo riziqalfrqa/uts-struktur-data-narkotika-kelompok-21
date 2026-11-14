@@ -1,4 +1,4 @@
-package id.umm.putusan.model;
+package putusan.model;
 
 import java.time.LocalDate;
 
