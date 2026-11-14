@@ -27,6 +27,6 @@ public final class ReportExporter {
 
     private static String csv(String s) {
         if (s == null) return "";
-        return """ + s.replace(""", """") + """;
+        return "\"" + s.replace("\"", "\"\"") + "\"";
     }
 }
