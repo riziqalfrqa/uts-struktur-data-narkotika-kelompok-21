@@ -10,6 +10,7 @@ import putusan.service.ReportExporter;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
+import javax.swing.JComboBox;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -17,6 +18,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
+import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.RowFilter;
 import javax.swing.UIManager;
@@ -31,6 +33,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.NumberFormat;
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 import java.util.regex.Pattern;
 
@@ -49,13 +53,28 @@ public class PutusanFrame extends JFrame {
         public boolean isCellEditable(int row, int column) {
             return false;
         }
+
+            @Override
+            public Class<?> getColumnClass(int column) {
+                return switch (column) {
+                    case 5 -> Double.class;
+                    case 7 -> Integer.class;
+                    case 8 -> Long.class;
+                    default -> String.class;
+                };
+            }
     };
     private final JTable table = new JTable(tableModel);
     private final TableRowSorter<DefaultTableModel> sorter = new TableRowSorter<>(tableModel);
-    private final JTextField searchField = new JTextField(24);
+    private final JTextField searchField = new JTextField(16);
+    private final JTextField quickFilterField = new JTextField(16);
+    private final JComboBox<String> searchMode =
+            new JComboBox<>(new String[]{"Case ID", "Nomor perkara"});
+    private final List<Putusan> displayedData = new ArrayList<>();
     private final JLabel countValue = new JLabel("0");
     private final JLabel sentenceValue = new JLabel("0 bulan");
     private final JLabel fineValue = new JLabel("Rp0");
+    private final JLabel resultLabel = new JLabel("Semua data");
 
     public PutusanFrame() {
         super("Data Putusan Narkotika");
@@ -87,15 +106,16 @@ public class PutusanFrame extends JFrame {
         table.setSelectionForeground(NAVY);
         sorter.setSortsOnUpdates(true);
 
-        searchField.setToolTipText("Cari case ID, nomor perkara, pengadilan, atau jenis narkotika");
-        searchField.putClientProperty("JTextField.placeholderText", "Cari data perkara...");
-        searchField.getDocument().addDocumentListener(new javax.swing.event.DocumentListener() {
+        searchField.setToolTipText("Cari case ID atau nomor perkara secara tepat");
+        quickFilterField.setToolTipText("Saring tabel berdasarkan teks di semua kolom");
+        quickFilterField.putClientProperty("JTextField.placeholderText", "Saring tabel...");
+        quickFilterField.getDocument().addDocumentListener(new javax.swing.event.DocumentListener() {
             @Override
-            public void insertUpdate(javax.swing.event.DocumentEvent e) { applySearch(); }
+            public void insertUpdate(javax.swing.event.DocumentEvent e) { applyQuickFilter(); }
             @Override
-            public void removeUpdate(javax.swing.event.DocumentEvent e) { applySearch(); }
+            public void removeUpdate(javax.swing.event.DocumentEvent e) { applyQuickFilter(); }
             @Override
-            public void changedUpdate(javax.swing.event.DocumentEvent e) { applySearch(); }
+            public void changedUpdate(javax.swing.event.DocumentEvent e) { applyQuickFilter(); }
         });
     }
 
@@ -147,7 +167,7 @@ public class PutusanFrame extends JFrame {
         JPanel content = new JPanel(new BorderLayout(0, 12));
         content.setOpaque(false);
 
-        JPanel toolbar = new JPanel(new BorderLayout(10, 0));
+        JPanel toolbar = new JPanel(new BorderLayout(0, 9));
         toolbar.setOpaque(false);
         JPanel actions = new JPanel(new GridLayout(1, 5, 8, 0));
         actions.setOpaque(false);
@@ -156,27 +176,48 @@ public class PutusanFrame extends JFrame {
         actions.add(button("Hapus", new Color(194, 70, 70), e -> removeData()));
         actions.add(button("Ekspor", NAVY, e -> exportData()));
         actions.add(button("Statistik", new Color(111, 84, 177), e -> showStatistics()));
-        toolbar.add(actions, BorderLayout.WEST);
+        JPanel analysisActions = new JPanel(new GridLayout(1, 5, 8, 0));
+        analysisActions.setOpaque(false);
+        analysisActions.add(button("Filter", new Color(111, 84, 177), e -> filterData()));
+        analysisActions.add(button("Urut vonis", new Color(65, 116, 164), e -> sortBySentence()));
+        analysisActions.add(button("Tampilkan semua", new Color(83, 96, 117), e -> showAllData()));
+        analysisActions.add(button("Detail", new Color(65, 116, 164), e -> showSelectedDetails()));
+        analysisActions.add(button("Audit log", NAVY, e -> showAuditLog()));
 
-        JPanel search = new JPanel(new BorderLayout(8, 0));
+        JPanel search = new JPanel(new GridLayout(1, 2, 16, 0));
         search.setOpaque(false);
-        JLabel searchLabel = new JLabel("Pencarian");
-        searchLabel.setForeground(new Color(83, 96, 117));
-        search.add(searchLabel, BorderLayout.WEST);
-        search.add(searchField, BorderLayout.CENTER);
-        JButton auditButton = new JButton("Audit log");
-        auditButton.addActionListener(e -> showAuditLog());
-        search.add(auditButton, BorderLayout.EAST);
-        toolbar.add(search, BorderLayout.EAST);
+        JPanel exactSearch = new JPanel(new BorderLayout(7, 0));
+        exactSearch.setOpaque(false);
+        exactSearch.add(searchMode, BorderLayout.WEST);
+        exactSearch.add(searchField, BorderLayout.CENTER);
+        exactSearch.add(button("Cari", BLUE, e -> searchData()), BorderLayout.EAST);
+        JPanel quickSearch = new JPanel(new BorderLayout(7, 0));
+        quickSearch.setOpaque(false);
+        quickSearch.add(new JLabel("Saring tabel"), BorderLayout.WEST);
+        quickSearch.add(quickFilterField, BorderLayout.CENTER);
+        search.add(exactSearch);
+        search.add(quickSearch);
+        JPanel actionRows = new JPanel(new GridLayout(2, 1, 0, 8));
+        actionRows.setOpaque(false);
+        actionRows.add(actions);
+        actionRows.add(analysisActions);
+        toolbar.add(actionRows, BorderLayout.NORTH);
+        toolbar.add(search, BorderLayout.SOUTH);
         content.add(toolbar, BorderLayout.NORTH);
 
         JScrollPane scrollPane = new JScrollPane(table);
         scrollPane.setBorder(BorderFactory.createLineBorder(new Color(226, 231, 239)));
         content.add(scrollPane, BorderLayout.CENTER);
 
-        JLabel footer = new JLabel("Pilih judul kolom untuk mengurutkan data");
-        footer.setFont(new Font("SansSerif", Font.PLAIN, 12));
-        footer.setForeground(new Color(113, 125, 146));
+        JPanel footer = new JPanel(new BorderLayout());
+        footer.setOpaque(false);
+        resultLabel.setFont(new Font("SansSerif", Font.PLAIN, 12));
+        resultLabel.setForeground(new Color(113, 125, 146));
+        JLabel tip = new JLabel("Klik judul kolom untuk mengurutkan");
+        tip.setFont(new Font("SansSerif", Font.PLAIN, 12));
+        tip.setForeground(new Color(113, 125, 146));
+        footer.add(resultLabel, BorderLayout.WEST);
+        footer.add(tip, BorderLayout.EAST);
         content.add(footer, BorderLayout.SOUTH);
         return content;
     }
@@ -241,36 +282,48 @@ public class PutusanFrame extends JFrame {
         JTextField terdakwa = new JTextField();
         JTextField jenis = new JTextField();
         JTextField berat = new JTextField("0");
+        JTextField dakwaan = new JTextField();
         JTextField pasal = new JTextField();
         JTextField tuntutan = new JTextField("0");
         JTextField vonis = new JTextField("0");
         JTextField denda = new JTextField("0");
+        JTextField barangBukti = new JTextField();
+        JTextField memberatkan = new JTextField();
+        JTextField meringankan = new JTextField();
+        JTextField sourcePages = new JTextField();
 
         Object[][] fields = {
                 {"Case ID *", caseId}, {"Nomor perkara *", nomor}, {"Pengadilan *", pengadilan},
-                {"Tanggal (YYYY-MM-DD)", tanggal}, {"Kode terdakwa", terdakwa},
+                {"Tanggal (YYYY-MM-DD, opsional)", tanggal}, {"Kode terdakwa", terdakwa},
                 {"Jenis narkotika", jenis}, {"Berat barang bukti (gram)", berat},
-                {"Pasal terbukti", pasal}, {"Tuntutan (bulan)", tuntutan},
-                {"Vonis (bulan)", vonis}, {"Denda (rupiah)", denda}
+                {"Pasal dakwaan", dakwaan}, {"Pasal terbukti", pasal}, {"Tuntutan (bulan)", tuntutan},
+                {"Vonis (bulan)", vonis}, {"Denda (rupiah)", denda},
+                {"Barang bukti", barangBukti}, {"Keadaan memberatkan", memberatkan},
+                {"Keadaan meringankan", meringankan}, {"Halaman sumber", sourcePages}
         };
         JPanel form = new JPanel(new GridLayout(fields.length, 2, 10, 8));
         for (Object[] field : fields) {
             form.add(new JLabel((String) field[0]));
             form.add((JTextField) field[1]);
         }
-        if (JOptionPane.showConfirmDialog(this, form, "Tambah data putusan",
+        JScrollPane formScroll = new JScrollPane(form);
+        formScroll.setPreferredSize(new Dimension(560, 440));
+        if (JOptionPane.showConfirmDialog(this, formScroll, "Tambah data putusan",
                 JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE) != JOptionPane.OK_OPTION) return;
 
         try {
             Putusan p = new Putusan(caseId.getText(), nomor.getText(), pengadilan.getText(),
                     tanggal.getText().isBlank() ? null : LocalDate.parse(tanggal.getText().trim()),
                     emptyToNull(terdakwa.getText()), emptyToNull(jenis.getText()),
-                    Double.parseDouble(berat.getText().trim()), null, emptyToNull(pasal.getText()),
+                    Double.parseDouble(berat.getText().trim()), emptyToNull(dakwaan.getText()),
+                    emptyToNull(pasal.getText()),
                     Integer.parseInt(tuntutan.getText().trim()), Integer.parseInt(vonis.getText().trim()),
-                    Long.parseLong(denda.getText().trim()), null, null, null, null);
+                    Long.parseLong(denda.getText().trim()), emptyToNull(barangBukti.getText()),
+                    emptyToNull(memberatkan.getText()), emptyToNull(meringankan.getText()),
+                    emptyToNull(sourcePages.getText()));
             repository.add(p);
             audit.log("ADD " + p.getCaseId());
-            refreshTable();
+            showAllData();
         } catch (RuntimeException e) {
             showError("Data tidak valid. Periksa tanggal dan nilai angka.\n" + e.getMessage());
         }
@@ -286,10 +339,22 @@ public class PutusanFrame extends JFrame {
         int answer = JOptionPane.showConfirmDialog(this, "Hapus data yang dipilih?",
                 "Konfirmasi hapus", JOptionPane.YES_NO_OPTION);
         if (answer != JOptionPane.YES_OPTION) return;
-        int index = table.convertRowIndexToModel(selected);
-        Putusan removed = repository.remove(index);
-        audit.log("REMOVE index=" + index + " caseId=" + removed.getCaseId());
-        refreshTable();
+        int modelIndex = table.convertRowIndexToModel(selected);
+        Putusan selectedData = displayedData.get(modelIndex);
+        int repositoryIndex = -1;
+        for (int i = 0; i < repository.size(); i++) {
+            if (repository.get(i) == selectedData) {
+                repositoryIndex = i;
+                break;
+            }
+        }
+        if (repositoryIndex < 0) {
+            showError("Data yang dipilih tidak lagi tersedia.");
+            return;
+        }
+        Putusan removed = repository.remove(repositoryIndex);
+        audit.log("REMOVE index=" + repositoryIndex + " caseId=" + removed.getCaseId());
+        showAllData();
     }
 
     private void exportData() {
@@ -344,18 +409,149 @@ public class PutusanFrame extends JFrame {
                 "Audit log (terbaru ke terlama)", JOptionPane.INFORMATION_MESSAGE);
     }
 
+    private void searchData() {
+        String key = searchField.getText().trim();
+        if (key.isEmpty()) {
+            showError("Masukkan case ID atau nomor perkara yang ingin dicari.");
+            return;
+        }
+        boolean byCaseId = searchMode.getSelectedIndex() == 0;
+        PutusanRepository.SearchResult result = byCaseId
+                ? repository.searchByCaseId(key)
+                : repository.searchByNomorPerkara(key);
+        DynamicArray<Putusan> matches = new DynamicArray<>();
+        if (result.result() != null) matches.add(result.result());
+        quickFilterField.setText("");
+        sorter.setSortKeys(null);
+        showData(matches, "Hasil pencarian: " + result.steps() + " langkah");
+        audit.log("SEARCH mode=" + (byCaseId ? "caseId" : "nomorPerkara")
+                + " key=" + key + " steps=" + result.steps());
+        if (result.result() == null) {
+            JOptionPane.showMessageDialog(this, "Data tidak ditemukan.\nJumlah langkah: " + result.steps(),
+                    "Hasil pencarian", JOptionPane.INFORMATION_MESSAGE);
+        }
+    }
+
+    private void filterData() {
+        JTextField jenis = new JTextField();
+        JTextField minBerat = new JTextField("0");
+        JTextField maxBerat = new JTextField("1000000");
+        JTextField pasal = new JTextField();
+        JTextField minVonis = new JTextField("0");
+        JTextField maxVonis = new JTextField("1200");
+        Object[][] fields = {
+                {"Jenis narkotika (kosong = semua)", jenis},
+                {"Berat minimum (gram)", minBerat},
+                {"Berat maksimum (gram)", maxBerat},
+                {"Pasal terbukti (kosong = semua)", pasal},
+                {"Vonis minimum (bulan)", minVonis},
+                {"Vonis maksimum (bulan)", maxVonis}
+        };
+        JPanel form = new JPanel(new GridLayout(fields.length, 2, 10, 8));
+        for (Object[] field : fields) {
+            form.add(new JLabel((String) field[0]));
+            form.add((JTextField) field[1]);
+        }
+        if (JOptionPane.showConfirmDialog(this, form, "Filter data putusan",
+                JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE) != JOptionPane.OK_OPTION) return;
+
+        try {
+            double minWeight = Double.parseDouble(minBerat.getText().trim());
+            double maxWeight = Double.parseDouble(maxBerat.getText().trim());
+            int minimumSentence = Integer.parseInt(minVonis.getText().trim());
+            int maximumSentence = Integer.parseInt(maxVonis.getText().trim());
+            if (minWeight > maxWeight || minimumSentence > maximumSentence) {
+                throw new IllegalArgumentException("Nilai minimum tidak boleh melebihi nilai maksimum.");
+            }
+            DynamicArray<Putusan> filtered = service.filter(emptyToNull(jenis.getText()),
+                    minWeight, maxWeight, emptyToNull(pasal.getText()),
+                    minimumSentence, maximumSentence);
+            quickFilterField.setText("");
+            sorter.setSortKeys(null);
+            showData(filtered, "Hasil filter: " + filtered.size() + " perkara");
+            audit.log("FILTER result=" + filtered.size());
+        } catch (RuntimeException e) {
+            showError("Filter tidak valid. Periksa kembali nilai angka.\n" + e.getMessage());
+        }
+    }
+
+    private void sortBySentence() {
+        Object[] options = {"Terkecil ke terbesar", "Terbesar ke terkecil"};
+        int selected = JOptionPane.showOptionDialog(this, "Pilih urutan vonis:",
+                "Urutkan berdasarkan vonis", JOptionPane.DEFAULT_OPTION,
+                JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
+        if (selected < 0) return;
+        DynamicArray<Putusan> sorted = service.sortByVonis(selected == 0);
+        quickFilterField.setText("");
+        sorter.setSortKeys(null);
+        showData(sorted, "Diurutkan berdasarkan vonis "
+                + (selected == 0 ? "terkecil ke terbesar" : "terbesar ke terkecil"));
+        audit.log("SORT vonis " + (selected == 0 ? "ASC" : "DESC"));
+    }
+
+    private void showAllData() {
+        searchField.setText("");
+        quickFilterField.setText("");
+        sorter.setRowFilter(null);
+        sorter.setSortKeys(null);
+        refreshTable();
+    }
+
+    private void showSelectedDetails() {
+        int selected = table.getSelectedRow();
+        if (selected < 0) {
+            JOptionPane.showMessageDialog(this, "Pilih satu perkara untuk melihat detail.",
+                    "Belum ada pilihan", JOptionPane.INFORMATION_MESSAGE);
+            return;
+        }
+        Putusan p = displayedData.get(table.convertRowIndexToModel(selected));
+        String details = "Case ID: " + p.getCaseId()
+                + "\nNomor perkara: " + p.getNomorPerkara()
+                + "\nPengadilan: " + p.getPengadilan()
+                + "\nTanggal putusan: " + value(p.getTanggalPutusan())
+                + "\nKode terdakwa: " + value(p.getTerdakwaKode())
+                + "\nJenis narkotika: " + value(p.getJenisNarkotika())
+                + "\nBerat barang bukti: " + p.getBeratBarangBuktiGram() + " gram"
+                + "\nPasal dakwaan: " + value(p.getPasalDakwaan())
+                + "\nPasal terbukti: " + value(p.getPasalTerbukti())
+                + "\nTuntutan: " + p.getTuntutanBulan() + " bulan"
+                + "\nVonis: " + p.getVonisBulan() + " bulan"
+                + "\nDenda: Rp" + p.getDendaRupiah()
+                + "\nBarang bukti: " + value(p.getBarangBukti())
+                + "\nKeadaan memberatkan: " + value(p.getKeadaanMemberatkan())
+                + "\nKeadaan meringankan: " + value(p.getKeadaanMeringankan())
+                + "\nHalaman sumber: " + value(p.getSourcePages());
+        JTextArea textArea = new JTextArea(details, 18, 54);
+        textArea.setEditable(false);
+        textArea.setLineWrap(true);
+        textArea.setWrapStyleWord(true);
+        JOptionPane.showMessageDialog(this, new JScrollPane(textArea),
+                "Detail putusan", JOptionPane.INFORMATION_MESSAGE);
+    }
+
+    private String value(Object value) {
+        return value == null ? "-" : value.toString();
+    }
+
     private void refreshTable() {
+        showData(repository.raw(), "Semua data");
+    }
+
+    private void showData(DynamicArray<Putusan> data, String description) {
         tableModel.setRowCount(0);
-        DynamicArray<Putusan> data = repository.raw();
+        displayedData.clear();
         for (int i = 0; i < data.size(); i++) {
             Putusan p = data.get(i);
+            displayedData.add(p);
             tableModel.addRow(new Object[]{p.getCaseId(), p.getNomorPerkara(), p.getPengadilan(),
-                    p.getTanggalPutusan() == null ? "" : p.getTanggalPutusan(),
+                    p.getTanggalPutusan() == null ? "" : p.getTanggalPutusan().toString(),
                     p.getJenisNarkotika() == null ? "" : p.getJenisNarkotika(),
                     p.getBeratBarangBuktiGram(), p.getPasalTerbukti() == null ? "" : p.getPasalTerbukti(),
                     p.getVonisBulan(), p.getDendaRupiah()});
         }
+        resultLabel.setText(description);
         updateSummary();
+        applyQuickFilter();
     }
 
     private void updateSummary() {
@@ -366,8 +562,8 @@ public class PutusanFrame extends JFrame {
                 .format(stats.totalDenda()));
     }
 
-    private void applySearch() {
-        String query = searchField.getText().trim();
+    private void applyQuickFilter() {
+        String query = quickFilterField.getText().trim();
         sorter.setRowFilter(query.isEmpty() ? null : RowFilter.regexFilter("(?i)" + Pattern.quote(query)));
     }
 

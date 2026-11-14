@@ -1,6 +1,6 @@
-package id.umm.putusan.service;
+package putusan.service;
 
-import id.umm.putusan.model.Putusan;
+import putusan.model.Putusan;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.file.Files;

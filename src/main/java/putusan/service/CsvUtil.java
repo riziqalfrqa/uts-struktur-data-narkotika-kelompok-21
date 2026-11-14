@@ -1,4 +1,4 @@
-package id.umm.putusan.service;
+package putusan.service;
 
 import java.util.ArrayList;
 import java.util.List;
