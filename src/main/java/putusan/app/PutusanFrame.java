@@ -22,11 +22,13 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.RowFilter;
 import javax.swing.UIManager;
+import javax.swing.plaf.basic.BasicButtonUI;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableRowSorter;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
 import java.nio.file.Files;
@@ -72,8 +74,6 @@ public class PutusanFrame extends JFrame {
             new JComboBox<>(new String[]{"Case ID", "Nomor perkara"});
     private final List<Putusan> displayedData = new ArrayList<>();
     private final JLabel countValue = new JLabel("0");
-    private final JLabel sentenceValue = new JLabel("0 bulan");
-    private final JLabel fineValue = new JLabel("Rp0");
     private final JLabel resultLabel = new JLabel("Semua data");
 
     public PutusanFrame() {
@@ -138,11 +138,9 @@ public class PutusanFrame extends JFrame {
         titlePanel.add(text, BorderLayout.WEST);
         header.add(titlePanel, BorderLayout.NORTH);
 
-        JPanel cards = new JPanel(new GridLayout(1, 3, 14, 0));
+        JPanel cards = new JPanel(new FlowLayout(FlowLayout.LEFT, 0, 0));
         cards.setOpaque(false);
         cards.add(createCard("TOTAL PERKARA", countValue));
-        cards.add(createCard("RATA-RATA VONIS", sentenceValue));
-        cards.add(createCard("TOTAL DENDA", fineValue));
         header.add(cards, BorderLayout.CENTER);
         return header;
     }
@@ -153,6 +151,7 @@ public class PutusanFrame extends JFrame {
         card.setBorder(BorderFactory.createCompoundBorder(
                 BorderFactory.createLineBorder(new Color(230, 234, 241)),
                 BorderFactory.createEmptyBorder(14, 17, 14, 17)));
+        card.setPreferredSize(new Dimension(250, 78));
         JLabel label = new JLabel(title);
         label.setFont(new Font("SansSerif", Font.BOLD, 11));
         label.setForeground(new Color(113, 125, 146));
@@ -224,8 +223,11 @@ public class PutusanFrame extends JFrame {
 
     private JButton button(String label, Color color, java.awt.event.ActionListener action) {
         JButton button = new JButton(label);
+        button.setUI(new BasicButtonUI());
         button.setForeground(Color.WHITE);
         button.setBackground(color);
+        button.setOpaque(true);
+        button.setContentAreaFilled(true);
         button.setFocusPainted(false);
         button.setBorderPainted(false);
         button.setFont(new Font("SansSerif", Font.BOLD, 12));
@@ -557,9 +559,6 @@ public class PutusanFrame extends JFrame {
     private void updateSummary() {
         PutusanService.Stats stats = service.statistics();
         countValue.setText(Integer.toString(stats.totalPerkara()));
-        sentenceValue.setText(String.format(Locale.getDefault(), "%.1f bulan", stats.rataRataVonis()));
-        fineValue.setText("Rp" + NumberFormat.getNumberInstance(Locale.forLanguageTag("id-ID"))
-                .format(stats.totalDenda()));
     }
 
     private void applyQuickFilter() {
