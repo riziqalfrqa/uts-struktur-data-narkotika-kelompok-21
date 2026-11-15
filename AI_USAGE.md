@@ -24,5 +24,13 @@ Tanggal Penggunaan 12 November 2026
    Penggunaan dalam project :
    - Putusan.java
 
+4. Untuk CSV converter
+   prompt yang digunakan :
+   "buatkan class java untuk membaca data putusan dari file CSV dan mengubah setiap baris menjadi object putusan, kemudian masukkan ke repository"
+   outpur yang diberikan : memberikan contoh alur pembacaan file csv, parsing setiap kolom, pembuatan object putusan, dan penyimpanan data ke repository"
+   penggunaan dalam project :
+   - CSVImporter.java
+  
+   
 note : setiap yang diberikan oleh AI/LLM yang digunakan, sudah saya cek dan periksa kembali tanpa diterima mentah' ke dalam project khususnya yang sudah di push ke github
 LLM yang digunakan Gemini dan ChatGPT
