@@ -22,6 +22,32 @@ Kontribusi:
 5. `menambahkan csv import dan stackcustom`
 6. `mnambah gui sederhana`
 
+Surya Firdaus Putra
+Fokus: Pengolahan data, fitur aplikasi, testing, dan dokumentasi.
+
+Kontribusi:
+- Membuat fitur filter dan pencarian data putusan.
+- Membuat perhitungan statistik putusan.
+- Membuat fitur sorting berdasarkan vonis.
+- Membuat `AuditLogger`.
+- Membuat `ReportExporter`.
+- Membuat Main untuk menjalankan aplikasi melalui CLI.
+- Menambahkan dan menjalankan pengujian.
+- Memperbarui `README.md`.
+- Mengisi `AI_USAGE.md`.
+- Melengkapi dokumentasi pada folder docs.
+- Membantu review Pull Request anggota 1.
+
+ Pull Request
+1. `menambah putusan`
+2. `cek putusan 26-50`
+3. `putusanservise buat sortingnnya`
+4. `Fitur/filter statistik`
+5. `menambahkan riport dan audit`
+6. `Fitur/testing`
+7. `Membenarkan data putusan`
+
+
 
 ## Pembagian Dataset
 
