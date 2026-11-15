@@ -30,6 +30,37 @@ Tanggal Penggunaan 12 November 2026
    outpur yang diberikan : memberikan contoh alur pembacaan file csv, parsing setiap kolom, pembuatan object putusan, dan penyimpanan data ke repository"
    penggunaan dalam project :
    - CSVImporter.java
+
+
+5. Penggunaan AI untuk Filter, Statistik, dan Sorting
+  Prompt:
+"Buatkan service Java untuk melakukan filter data putusan berdasarkan jenis narkotika, berat barang bukti, pasal terbukti, dan rentang vonis. Tambahkan statistik dan sorting berdasarkan lama vonis tanpa mengubah urutan data asli."
+
+  Output:
+AI memberikan contoh implementasi beberapa operasi pengolahan data, seperti filter, perhitungan rata-rata vonis, total denda, frekuensi jenis narkotika, dan       sorting.
+Penggunaan dalam Project
+Konsep tersebut digunakan sebagai referensi untuk implementasi fitur pada PutusanService.java.
+
+Memeriksa Implementasi lagi agar sorting tidak mengubah data utama dan tetap menggunakan struktur data yang telah dibuat.
+
+6. Penggunaan AI untuk Audit Log dan Export
+  Prompt
+  "Buatkan fitur Java untuk mencatat aktivitas pengguna menggunakan CustomStack dan melakukan export data putusan ke file CSV atau laporan."
+
+  Output
+  AI memberikan contoh implementasi pencatatan aktivitas dan penulisan data ke file menggunakan Java I/O.
+  Penggunaan dalam Project
+  Konsep tersebut digunakan dalam:
+  - AuditLogger.java
+  - ReportExporter.java
+  Pada proses pengerjaan, AI juga digunakan untuk membantu mencari dan memperbaiki error pada kode ReportExporter.java.
+
+ 7. Penggunaan AI untuk Debugging Maven
+  Prompt
+  "Maven mengalami compile error pada ReportExporter.java. Jelaskan penyebab error dan berikan versi kode yang benar."
+
+  Output
+  AI membantu mengidentifikasi masalah pada penulisan string dan escaping karakter pada kode Java.
   
    
 note : setiap yang diberikan oleh AI/LLM yang digunakan, sudah saya cek dan periksa kembali tanpa diterima mentah' ke dalam project khususnya yang sudah di push ke github
