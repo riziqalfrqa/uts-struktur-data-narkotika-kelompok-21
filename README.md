@@ -1,7 +1,7 @@
 Kelompok 21 Pengadilan Negeri Tegal
 Anggota : 
   1. Habib Riziq Alfaruq (202510370110117)
-  2. SUrya Firdaus Putra
+  2. Surya Firdaus Putra (202510370110145)
 
 Struktur yang dipilih : 
   DynamicArray<T> sebagai struktur penyimpanan utama
