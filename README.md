@@ -8,6 +8,8 @@ Struktur yang dipilih :
   CustomStack<T> sebagai struktur untuk audit log
 
 CARA MENGGUNAKAN 
+Pastikan File CSV harus berada di dalam folder /data
+Menjalankan Program
 - mvn -Dmaven.test.skip=true package
 - java -cp target/classes putusan.app.Main
 
