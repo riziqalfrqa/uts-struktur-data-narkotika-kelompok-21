@@ -1,0 +1,21 @@
+Kelompok 21 Pengadilan Negeri Tegal
+Anggota : 
+  1. Habib Riziq Alfaruq (202510370110117)
+  2. SUrya Firdaus Putra
+
+Struktur yang dipilih : 
+  DynamicArray<T> sebagai struktur penyimpanan utama
+  CustomStack<T> sebagai struktur untuk audit log
+
+CARA MENGGUNAKAN 
+- mvn -Dmaven.test.skip=true package
+- java -cp target/classes putusan.app.Main
+
+
+Fitur yang Tersedia 
+1. Impor CSV
+2. Tampil data
+3. Tambah/Hapus Data
+4. Search data
+5. Statistik
+6. Ekspor CSV
